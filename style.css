@@ -57,14 +57,14 @@ h2{
 }
 
 a:link {
-    color: #f171df;
+    color: #ffd000;
     text-decoration: none;
 }
 a:visited{
-    color: #f171df;
+    color: #ffd000;
 }
 a:active{
-    color: #f171df;
+    color: #ffd000;
 }
 a:hover{
     color: white;
@@ -79,15 +79,15 @@ a:hover{
     
     border-radius: 2px;
     background: black;
-    color: #f171df;
+    color: #ffd000;
     padding:4px;
     text-decoration: none;
 }
 .linkfoot a:visited{
-    color: #f171df;
+    color: #ffd000;
 }
 .linkfoot a:active{
-    color: #f171df;
+    color: #ffd000;
 }
 .linkfoot a:hover{
     color: white
