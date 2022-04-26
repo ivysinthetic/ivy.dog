@@ -1,0 +1,72 @@
+html {
+    background-image: url("/images/skybg.png");
+    font-family: monospace;
+    font-size: small;
+}
+body {
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: auto;
+    height: 100%;
+}
+
+img{
+    float:none;
+    margin: 5px;
+    max-width: 25%;
+    max-height: 25%;
+}
+
+.contentwrap {
+    border-radius: 2px;
+    top:0px;
+    padding-top: 0px;
+    background-color: white;
+    max-width: 666px;
+    min-width: 256px;
+}
+
+.titlebar {
+    margin: 0px;
+    color: #272529;
+}
+
+.content {
+    height:100%;
+    top: 0px;
+    margin-top: 0px;
+    margin-right: 14px;
+    margin-left: 14px;
+    color:#272529;
+}
+
+.linkfoot{
+    text-align: justify;
+    padding: 4px;
+}
+
+.linkfoot a:link {
+    border-radius: 2px;
+    background: #6d9fd8;
+    color: white;
+    padding:4px;
+    text-decoration: none;
+}
+.linkfoot a:visited{
+    color: white;
+}
+.linkfoot a:active{
+    color: white;
+}
+.linkfoot a:hover{
+    color: pink;
+}
+
+.footer {
+    color: #868387;
+    font-family: 'Times New Roman', serif;
+    font-size: 10px;
+    margin-bottom: 4px;
+    padding: 4px;
+}

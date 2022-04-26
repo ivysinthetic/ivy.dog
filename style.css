@@ -1,0 +1,110 @@
+html {
+    background-image: url("/images/bg_cloudDither.png");
+    font-family: "Liberation Mono", monospace;
+    font-size: 14px;
+}
+body {
+    margin-left: 2px;
+    margin-right: 2px;
+    position: relative;
+    padding-top:0;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100%;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    /*display: block; /* remove extra space below image */
+}
+
+h1{
+    color: black;
+    text-shadow: 2px 2px #f171df;
+}
+h2{
+    color: #f171df;
+}
+
+.contentwrap {
+    border-radius: 6px;
+    height: 100%; 
+    top:0px;
+    padding-top: 0px;
+    background: rgba(6,6,6, 0.75);
+    max-width: 724px;
+    min-width: 256px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.titlebar {
+    padding: 2px;
+    border-radius: 3px;
+    background: rgba(0,0,0,1);
+    background-image: url("/images/header_pinkClouds.png");
+    color: black;
+}
+
+.content {
+    height:100%;
+    margin: auto;
+    color:#f6f6f6;
+    padding: 4px;
+}
+
+a:link {
+    color: #f171df;
+    text-decoration: none;
+}
+a:visited{
+    color: #f171df;
+}
+a:active{
+    color: #f171df;
+}
+a:hover{
+    color: white;
+}
+
+.linkfoot{
+    text-align: justify;
+    padding: 4px;
+}
+
+.linkfoot a:link {
+    
+    border-radius: 2px;
+    background: black;
+    color: #f171df;
+    padding:4px;
+    text-decoration: none;
+}
+.linkfoot a:visited{
+    color: #f171df;
+}
+.linkfoot a:active{
+    color: #f171df;
+}
+.linkfoot a:hover{
+    color: white
+}
+
+.stampfoot{
+    text-align: justify;
+    padding: 4px;
+}
+.stampfoot img{
+    max-width: 100%;
+}
+
+.footer {
+    color: #868387;
+    font-family: 'Times New Roman', serif;
+    font-size: 10px;
+    padding: 4px;
+    text-align:justify;
+}
