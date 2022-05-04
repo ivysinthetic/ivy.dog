@@ -1,9 +1,9 @@
 :root {
-    --accent:    #e5a0f8; 
+    --accent:    #cb9ad8; 
     --accent2:   #6bbff7; 
     --bgcolor:   #ffffff9c; 
     --bgcolor2:  #fce7f7; 
-    --text-color: #1a1a1a;
+    --text-color: #3f3a3e;
 }
 
 html {
@@ -103,8 +103,8 @@ a:hover{
 }
 
 .stampfoot{
-    border: 1px solid var(--accent2);
-    border-radius: 2px;
+    border: 1px solid var(--accent);
+    border-radius: 6px;
     background: white;
     padding:6px;
     text-align: justify;
@@ -112,7 +112,6 @@ a:hover{
 .stampfoot img{
     max-width: 100%;
 }
-
 .footer {
     color: #868387;
     font-family: 'Times New Roman', serif;
