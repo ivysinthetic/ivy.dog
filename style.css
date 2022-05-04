@@ -3,6 +3,7 @@
     --accent2:   #2f89c5; 
     --bgcolor:   #ffffffe1; 
     --bgcolor2:  #fce7f7; 
+    --bgcolor3:   #c5dceb; 
     --text-color: #3f3a3e;
 }
 
@@ -64,7 +65,7 @@ h2{
     display: grid;
     border: 1px solid var(--accent2);
     border-radius: 6px;
-    background: var(--bgcolor2);
+    background: var(--bgcolor3);
     max-width: 724px;
     text-align: justify;
     padding: 2px;
