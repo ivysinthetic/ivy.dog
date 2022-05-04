@@ -14,6 +14,7 @@ body {
 img{
     max-width: 100%;
     max-height: 100%;
+    border-radius: 6px;
     /*display: block; /* remove extra space below image */
 }
 
@@ -32,12 +33,12 @@ h2{
     background: rgba(6,6,6, 0.75);
     max-width: 724px;
     margin: auto;
-    padding: 4px;
+    padding: 6px;
 }
 
 .titlebar {
     border: 1px solid black;
-    padding: 2px;
+    padding: 6px;
     border-radius: 6px;
     background: rgba(0,0,0,1);
     background-image: url("/images/header_pinkClouds.png");
@@ -51,15 +52,16 @@ h2{
     padding: 4px;
 }
 
-.linkfoot{
+.linksheader{
     border: 1px solid #ff0074;
+    border-radius: 6px;
     background: rgba(6,6,6, 0.75);
     max-width: 724px;
     text-align: justify;
-    padding: 4px;
+    padding: 6px;
 }
 
-.linkfoot a:link {
+.linksheader a:link {
     
     border-radius: 2px;
     background: black;
@@ -67,13 +69,13 @@ h2{
     padding:4px;
     text-decoration: none;
 }
-.linkfoot a:visited{
+.linksheader a:visited{
     color: #ffd000;
 }
-.linkfoot a:active{
+.linksheader a:active{
     color: #ffd000;
 }
-.linkfoot a:hover{
+.linksheader a:hover{
     color: white
 }
 
