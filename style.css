@@ -49,16 +49,17 @@ h2{
     height:100%;
     margin: auto;
     color:#f6f6f6;
-    padding: 4px;
+    padding: 6px;
 }
 
 .linksheader{
     display: grid;
-    border: 1px solid #ff0074;
+    border: 1px solid #ffd000;
     border-radius: 6px;
     background: rgba(6,6,6, 0.75);
     max-width: 724px;
     text-align: justify;
+    padding: 10px;
 }
 
 .linksheader a:link {
