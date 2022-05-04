@@ -103,8 +103,11 @@ a:hover{
 }
 
 .stampfoot{
+    border: 1px solid var(--accent2);
+    border-radius: 2px;
+    background: white;
+    padding:6px;
     text-align: justify;
-    padding: 4px;
 }
 .stampfoot img{
     max-width: 100%;
