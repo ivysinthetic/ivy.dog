@@ -1,5 +1,5 @@
 :root {
-    --accent:    #d086e2; 
+    --accent:    #c374d6; 
     --accent2:   #2f89c5; 
     --bgcolor:   #ffffffe1; 
     --bgcolor2:  #fce7f7; 
@@ -28,7 +28,7 @@ img{
 }
 
 h1{
-    color: black;
+    color: var(--text-color);
     text-shadow: 2px 2px var(--accent);
 }
 h2{
@@ -51,7 +51,6 @@ h2{
     border-radius: 6px;
     background: var(--bgcolor);
     background-image: url("/images/pastelpinkbg_4.gif");
-    color: white;
 }
 
 .content {
@@ -73,10 +72,10 @@ h2{
 
 .linksheader a:link {
     border: 1px solid var(--accent2);
-    border-radius: 2px;
+    border-radius: 4px;
     background: white;
     color: var(--accent);
-    padding:6px;
+    padding:4px;
     text-decoration: none;
 }
 .linksheader a:visited{
