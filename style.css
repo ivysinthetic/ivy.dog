@@ -1,3 +1,11 @@
+:root {
+    --accent:    #ff8be0; 
+    --accent2:   #5f9cf7; 
+    --bgcolor:   #ffddf2be; 
+    --bgcolor2:  #fce7f7; 
+    --text-color: rgb(0, 0, 0);
+}
+
 html {
     background-image: url("/images/bg_cloudDither.png");
     font-family: "Liberation Mono", monospace;
@@ -20,41 +28,41 @@ img{
 
 h1{
     color: black;
-    text-shadow: 2px 2px #ff0074;
+    text-shadow: 2px 2px --accent;
 }
 h2{
-    color: #ff0074;
+    color: --accent;
 }
 
 .contentwrap {
-    border: 1px solid #ff0074;
+    border: 1px solid --accent;
     border-radius: 6px;
     height: 100%; 
-    background: rgba(6,6,6, 0.75);
+    background: --bgcolor;
     max-width: 724px;
     margin: auto;
     padding: 6px;
 }
 
 .titlebar {
-    border: 1px solid black;
+    border: 1px solid --accent;
     padding: 6px;
     border-radius: 6px;
-    background: rgba(0,0,0,1);
+    background: --bgcolor;
     background-image: url("/images/header_pinkClouds.png");
-    color: black;
+    color: white;
 }
 
 .content {
     height:100%;
     margin: auto;
-    color:#f6f6f6;
+    color:--text-color;
     padding: 6px;
 }
 
 .linksheader{
     display: grid;
-    border: 1px solid #ffd000;
+    border: 1px solid --accent2;
     border-radius: 6px;
     background: rgba(6,6,6, 0.75);
     max-width: 724px;
@@ -63,35 +71,35 @@ h2{
 }
 
 .linksheader a:link {
-    border: 1px solid #ffd000;
+    border: 1px solid --accent2;
     border-radius: 2px;
     background: black;
-    color: #ffd000;
+    color: --accent2;
     padding:6px;
     text-decoration: none;
 }
 .linksheader a:visited{
-    color: #ffd000;
+    color: --accent2;
 }
 .linksheader a:active{
-    color: #ffd000;
+    color: --accent2;
 }
 .linksheader a:hover{
-    color: white
+    color: black
 }
 
 a:link {
-    color: #ffd000;
+    color: --accent2;
     text-decoration: none;
 }
 a:visited{
-    color: #ffd000;
+    color: --accent20;
 }
 a:active{
-    color: #ffd000;
+    color: --accent2;
 }
 a:hover{
-    color: white;
+    color: black;
 }
 
 .stampfoot{
