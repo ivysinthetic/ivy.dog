@@ -4,7 +4,7 @@ html {
     font-size: 14px;
 }
 body {
-    margin: 10px auto;
+    margin: 8px auto;
     overflow: auto;
     height: 100%;
 }
@@ -24,18 +24,16 @@ h2{
 }
 
 .contentwrap {
-    outline-color: #ff0074;
-    outline-width: 2px;
+    border: 1px solid #ff0074;
     border-radius: 6px;
     height: 100%; 
     top:0px;
     padding-top: 0px;
     background: rgba(6,6,6, 0.75);
     max-width: 724px;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 16px;
-    padding-right: 16px;
+    margin: auto;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .titlebar {
