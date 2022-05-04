@@ -29,7 +29,7 @@ img{
 
 h1{
     color: var(--text-color);
-    text-shadow: 2px 2px var(--accent);
+    text-shadow: 1px 1px var(--accent);
 }
 h2{
     color: var(--accent);
@@ -47,7 +47,7 @@ h2{
 
 .titlebar {
     border: 1px solid var(--accent);
-    padding: 6px;
+    padding: 4px;
     border-radius: 6px;
     background: var(--bgcolor);
     background-image: url("/images/pastelpinkbg_4.gif");
