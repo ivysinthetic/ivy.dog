@@ -38,7 +38,7 @@ h2{
     border-radius: 6px;
     background: var(--bgcolor);
     text-shadow: 1px 1px var(--accent);
-    background-image: url("/images/pastelpinkbg_1.gif");
+    background-image: url("/images/pastelpinkbg_3.gif");
 }
 
 .contentwrap {
@@ -52,7 +52,7 @@ h2{
 }
 
 .titlebar {
-    border: 1px solid var(--accent);
+    border: 1px solid var(--accent2);
     padding: 4px;
     border-radius: 6px;
     background: var(--bgcolor);
@@ -64,6 +64,7 @@ h2{
     margin: auto;
     color:var(--text-color);
     padding: 6px;
+    padding-top: 1px;
 }
 
 .linksheader{
