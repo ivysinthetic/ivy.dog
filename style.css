@@ -64,6 +64,7 @@ h2{
     display: grid;
     border: 1px solid var(--accent2);
     border-radius: 6px;
+    background-image: url("/images/bluepastelbg_1.gif");
     background: var(--bgcolor3);
     max-width: 724px;
     text-align: justify;
