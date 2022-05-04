@@ -28,27 +28,27 @@ img{
 
 h1{
     color: black;
-    text-shadow: 2px 2px --accent;
+    text-shadow: 2px 2px var(--accent);
 }
 h2{
-    color: --accent;
+    color: var(--accent);
 }
 
 .contentwrap {
-    border: 1px solid --accent;
+    border: 1px solid var(--accent);
     border-radius: 6px;
     height: 100%; 
-    background: --bgcolor;
+    background: var(--bgcolor);
     max-width: 724px;
     margin: auto;
     padding: 6px;
 }
 
 .titlebar {
-    border: 1px solid --accent;
+    border: 1px solid var(--accent);
     padding: 6px;
     border-radius: 6px;
-    background: --bgcolor;
+    background: var(--bgcolor);
     background-image: url("/images/header_pinkClouds.png");
     color: white;
 }
@@ -56,13 +56,13 @@ h2{
 .content {
     height:100%;
     margin: auto;
-    color:--text-color;
+    color:var(--text-color);
     padding: 6px;
 }
 
 .linksheader{
     display: grid;
-    border: 1px solid --accent2;
+    border: 1px solid var(--accent2);
     border-radius: 6px;
     background: rgba(6,6,6, 0.75);
     max-width: 724px;
@@ -71,32 +71,32 @@ h2{
 }
 
 .linksheader a:link {
-    border: 1px solid --accent2;
+    border: 1px solid var(--accent2);
     border-radius: 2px;
     background: black;
-    color: --accent2;
+    color: var(--accent);
     padding:6px;
     text-decoration: none;
 }
 .linksheader a:visited{
-    color: --accent2;
+    color: var(--accent);
 }
 .linksheader a:active{
-    color: --accent2;
+    color: var(--accent);
 }
 .linksheader a:hover{
     color: black
 }
 
 a:link {
-    color: --accent2;
+    color: var(--accent);
     text-decoration: none;
 }
 a:visited{
-    color: --accent20;
+    color: var(--accent);
 }
 a:active{
-    color: --accent2;
+    color: var(--accent);
 }
 a:hover{
     color: black;
