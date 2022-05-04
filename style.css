@@ -32,12 +32,12 @@ h1{
     text-shadow: 2px 2px var(--accent);
 }
 h2{
-    color: white;
+    color: var(--accent);
     padding: 1px;
     padding-left: 2px;
     border-radius: 6px;
     background: var(--accent);
-    text-shadow: 2px 2px var(--accent);
+    text-shadow: 2px 2px white;
     background-image: url("/images/pastelpinkbg_3(edit).png");
     
 }
