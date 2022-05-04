@@ -1,6 +1,6 @@
 :root {
     --accent:    #d086e2; 
-    --accent2:   #6bbff7; 
+    --accent2:   #2f89c5; 
     --bgcolor:   #ffffffe1; 
     --bgcolor2:  #fce7f7; 
     --text-color: #3f3a3e;
@@ -64,7 +64,7 @@ h2{
     display: grid;
     border: 1px solid var(--accent2);
     border-radius: 6px;
-    background: var(--bgcolor);
+    background: var(--bgcolor2);
     max-width: 724px;
     text-align: justify;
     padding: 2px;
@@ -105,7 +105,7 @@ a:hover{
 .stampfoot{
     border: 1px solid var(--accent);
     border-radius: 6px;
-    background: white;
+    background: var(--bgcolor2);
     padding:6px;
     text-align: justify;
 }
