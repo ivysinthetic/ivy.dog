@@ -114,6 +114,8 @@ a:hover{
     border: 1px solid var(--accent);
     border-radius: 6px;
     background: var(--bgcolor2);
+    background-image: url("/images/ivysiteheader.png");
+    
     padding:6px;
     text-align: justify;
 }
