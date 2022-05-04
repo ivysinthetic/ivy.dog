@@ -53,6 +53,7 @@ h2{
 }
 
 .linksheader{
+    display: grid;
     border: 1px solid #ff0074;
     border-radius: 6px;
     background: rgba(6,6,6, 0.75);
