@@ -59,7 +59,7 @@ h2{
     background: rgba(6,6,6, 0.75);
     max-width: 724px;
     text-align: justify;
-    padding: 10px;
+    padding: 2px;
 }
 
 .linksheader a:link {
@@ -67,7 +67,7 @@ h2{
     border-radius: 2px;
     background: black;
     color: #ffd000;
-    padding:4px;
+    padding:6px;
     text-decoration: none;
 }
 .linksheader a:visited{
