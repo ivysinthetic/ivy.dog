@@ -61,7 +61,7 @@ h2{
 }
 
 .linksheader a:link {
-    
+    border: 1px solid #ffd000;
     border-radius: 2px;
     background: black;
     color: #ffd000;
