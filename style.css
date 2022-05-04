@@ -5,7 +5,6 @@ html {
 }
 body {
     margin: auto;
-    padding: 4%;
     height: 100%;
     max-width: 900;
 }
@@ -25,9 +24,9 @@ h2{
 }
 
 .contentwrap {
-    outline: auto;
-    outline-color: #ff0074;
+    outline:#ff0074;
     outline-width: 1px;
+
     border-radius: 6px;
     height: 100%; 
     top:0px;
