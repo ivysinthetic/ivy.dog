@@ -1,7 +1,7 @@
 :root {
-    --accent:    #d0a3dd; 
-    --accent2:   #6191b1; 
-    --bgcolor:   #fff4fbd8; 
+    --accent:    #e5a0f8; 
+    --accent2:   #6bbff7; 
+    --bgcolor:   #ffffff9c; 
     --bgcolor2:  #fce7f7; 
     --text-color: #1a1a1a;
 }
@@ -49,7 +49,7 @@ h2{
     padding: 6px;
     border-radius: 6px;
     background: var(--bgcolor);
-    background-image: url("/images/header_pinkClouds.png");
+    background-image: url("/images/pastelpinkbg_4.gif");
     color: white;
 }
 
@@ -73,7 +73,7 @@ h2{
 .linksheader a:link {
     border: 1px solid var(--accent2);
     border-radius: 2px;
-    background: black;
+    background: white;
     color: var(--accent);
     padding:6px;
     text-decoration: none;
