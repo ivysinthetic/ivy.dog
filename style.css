@@ -32,7 +32,7 @@ h1{
     text-shadow: 1px 1px var(--accent);
 }
 h2{
-    color: white;
+    color: var(--accent2);
     padding: 1px;
     padding-left: 2px;
     border-radius: 6px;
@@ -52,7 +52,7 @@ h2{
 }
 
 .titlebar {
-    border: 1px solid var(--accent2);
+    border: 1px solid var(--accent);
     padding: 4px;
     border-radius: 6px;
     background: var(--bgcolor);
