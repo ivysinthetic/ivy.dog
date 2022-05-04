@@ -8,6 +8,7 @@ body {
     overflow: auto;
     height: 100%;
     max-width: 724px;
+    padding: 4px;
 }
 
 img{
@@ -50,22 +51,9 @@ h2{
     padding: 4px;
 }
 
-a:link {
-    color: #ffd000;
-    text-decoration: none;
-}
-a:visited{
-    color: #ffd000;
-}
-a:active{
-    color: #ffd000;
-}
-a:hover{
-    color: white;
-}
-
 .linkfoot{
     border: 1px solid #ff0074;
+    background: rgba(6,6,6, 0.75);
     max-width: 724px;
     text-align: justify;
     padding: 4px;
@@ -87,6 +75,20 @@ a:hover{
 }
 .linkfoot a:hover{
     color: white
+}
+
+a:link {
+    color: #ffd000;
+    text-decoration: none;
+}
+a:visited{
+    color: #ffd000;
+}
+a:active{
+    color: #ffd000;
+}
+a:hover{
+    color: white;
 }
 
 .stampfoot{
