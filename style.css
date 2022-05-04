@@ -6,9 +6,7 @@ html {
 body {
     margin: auto;
     position: relative;
-    padding-top:0;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 2px;
     height: 100%;
     max-width: 1000px;
 }
@@ -28,6 +26,8 @@ h2{
 }
 
 .contentwrap {
+    outline-color: #ff0074;
+    outline-width: 1px;
     border-radius: 6px;
     height: 100%; 
     top:0px;
