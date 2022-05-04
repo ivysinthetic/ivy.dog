@@ -4,13 +4,13 @@ html {
     font-size: 14px;
 }
 body {
-    margin-left: 2px;
-    margin-right: 2px;
+    margin: auto;
     position: relative;
     padding-top:0;
     padding-left: 10%;
     padding-right: 10%;
     height: 100%;
+    max-width: 1000px;
 }
 
 img{
