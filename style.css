@@ -29,15 +29,15 @@ img{
 
 h1{
     color: var(--text-color);
-    text-shadow: 1px 1px var(--accent);
+    text-shadow: 2px 2px var(--accent);
 }
 h2{
-    color: var(--accent2);
+    color: black;
     padding: 1px;
     padding-left: 2px;
     border-radius: 6px;
-    background: var(--bgcolor);
-    text-shadow: 1px 1px var(--accent);
+    background: var(--accent);
+    text-shadow: 2px 2px var(--accent);
     background-image: url("/images/pastelpinkbg_3.gif");
 }
 
