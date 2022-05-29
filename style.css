@@ -42,6 +42,17 @@ h2{
     
 }
 
+.help {
+    display: grid;
+    border: 3px solid var(--accent2);
+    border-radius: 6px;
+    background: var(--bgcolor3);
+    background-image: url("/images/pastelpinkbg_1.gif");
+    max-width: 724px;
+    text-align: justify;
+    padding: 5px;
+}
+
 .contentwrap {
     border: 1px solid var(--accent);
     border-radius: 6px;
