@@ -47,10 +47,15 @@ h2{
     border: 3px solid var(--accent2);
     border-radius: 6px;
     background: var(--bgcolor3);
-    background-image: url("/images/pastelpinkbg_1.gif");
+    background-image: url("/images/bluepastelbg_1.gif");
     max-width: 724px;
     text-align: justify;
     padding: 5px;
+}
+
+#hlp {
+    float: right;
+    margin: 4px;
 }
 
 .contentwrap {
