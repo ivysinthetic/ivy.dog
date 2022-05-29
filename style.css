@@ -53,11 +53,6 @@ h2{
     padding: 5px;
 }
 
-#hlp {
-    float: right;
-    margin: 4px;
-}
-
 .contentwrap {
     border: 1px solid var(--accent);
     border-radius: 6px;
