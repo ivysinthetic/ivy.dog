@@ -142,3 +142,11 @@ a:hover{
     padding: 4px;
     text-align:justify;
 }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 3rem 0.75rem;
+    list-style-type: none;
+    padding: 4px;
+}
