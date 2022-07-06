@@ -1,6 +1,6 @@
 :root {
-    --accent:    #eb9dff; 
-    --accent2:   #90d3ff; 
+    --accent:    #bc7acc; 
+    --accent2:   #ffffff; 
     --bgcolor:   #000000e1; 
     --bgcolor2:  #222222; 
     --bgcolor3:   #383838; 
@@ -37,7 +37,7 @@ h2{
     padding-left: 2px;
     border-radius: 6px;
     background: var(--accent);
-    text-shadow: 2px 2px white;
+    text-shadow: 2px 2px rgb(0, 0, 0);
     background-image: url("/images/bg_weirdpurple.png");
     
 }
