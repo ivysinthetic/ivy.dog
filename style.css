@@ -69,7 +69,7 @@ h2{
     padding: 4px;
     border-radius: 6px;
     background: var(--bgcolor);
-    background-image: url("/images/bg_pinkpuff.jpg");
+    background-image: url("/images/bg_imlainlol.gif");
 }
 
 .content {
@@ -85,7 +85,7 @@ h2{
     border: 1px solid var(--accent2);
     border-radius: 6px;
     background: var(--bgcolor3);
-    background-image: url("/images/bg_pinkpuff.jpg");
+    background-image: url("/images/bg_weirdpurple.png");
     max-width: 724px;
     text-align: justify;
     padding: 2px;
@@ -127,7 +127,7 @@ a:hover{
     border: 1px solid var(--accent);
     border-radius: 6px;
     background: var(--bgcolor2);
-    background-image: url("/images/ivysiteheader.png");
+    background-image: url("/images/bg_pinkpuff.jpg");
     
     padding:6px;
     text-align: justify;
