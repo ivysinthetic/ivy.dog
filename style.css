@@ -8,7 +8,7 @@
 }
 
 html {
-    background-image: url("/images/pastelpinkbg_5.gif");
+    background-image: url("/images/bg_stars.gif");
     font-family: "Liberation Mono", monospace;
     font-size: 14px;
 }
@@ -38,7 +38,7 @@ h2{
     border-radius: 6px;
     background: var(--accent);
     text-shadow: 2px 2px white;
-    background-image: url("/images/pastelpinkbg_3(edit).png");
+    background-image: url("/images/bg_weirdpurple.png");
     
 }
 
@@ -47,7 +47,7 @@ h2{
     border: 3px solid var(--accent2);
     border-radius: 6px;
     background: var(--bgcolor3);
-    background-image: url("/images/bluepastelbg_1.gif");
+    background-image: url("/images/bg_imlainlol.gif");
     max-width: 724px;
     text-align: justify;
     padding: 5px;
@@ -58,7 +58,6 @@ h2{
     border-radius: 6px;
     height: 100%; 
     background: var(--bgcolor);
-    background-image: url("/images/whitebg.jpg");
     max-width: 724px;
     margin: auto;
     padding: 6px;
@@ -69,7 +68,7 @@ h2{
     padding: 4px;
     border-radius: 6px;
     background: var(--bgcolor);
-    background-image: url("/images/pastelpinkbg_4.gif");
+    background-image: url("/images/bg_pinkpuff.jpg");
 }
 
 .content {
@@ -85,7 +84,7 @@ h2{
     border: 1px solid var(--accent2);
     border-radius: 6px;
     background: var(--bgcolor3);
-    background-image: url("/images/bluepastelbg_1.gif");
+    background-image: url("/images/bg_pinkpuff.jpg");
     max-width: 724px;
     text-align: justify;
     padding: 2px;
