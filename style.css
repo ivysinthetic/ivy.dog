@@ -1,6 +1,6 @@
 :root {
     --accent:    #bc7acc; 
-    --accent2:   #ffffff; 
+    --accent2:   #80d0df; 
     --bgcolor:   #000000e1; 
     --bgcolor2:  #222222; 
     --bgcolor3:   #383838; 
@@ -46,6 +46,7 @@ h2{
     display: grid;
     border: 3px solid var(--accent2);
     border-radius: 6px;
+    color:var(--text-color);
     background: var(--bgcolor3);
     background-image: url("/images/bg_imlainlol.gif");
     max-width: 724px;
@@ -93,7 +94,7 @@ h2{
 .linksheader a:link {
     border: 1px solid var(--accent2);
     border-radius: 4px;
-    background: white;
+    background: rgb(56, 44, 54);
     color: var(--accent);
     padding:4px;
     text-decoration: none;
