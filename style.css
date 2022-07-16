@@ -55,6 +55,7 @@ h2{
 .titlebar {
     padding: 2px;
     background: var(--accent);
+    background-image: url("/images/bg_pinkpuff.jpg");
 }
 
 .content {
@@ -68,7 +69,7 @@ h2{
 .linksheader{
     display: grid;
     border: 1px solid var(--accent2);
-    border-radius: 6px;
+    border-radius: 4px;
     background: #222222;
     background-image: url("/images/bg_imlainlol.gif");
     max-width: 724px;
@@ -77,8 +78,6 @@ h2{
 }
 
 .linksheader a:link {
-    border: 1px solid var(--accent2);
-    border-radius: 4px;
     background: rgb(56, 44, 54);
     color: var(--accent);
     padding:4px;
@@ -109,12 +108,10 @@ a:hover{
 }
 
 .stampfoot{
-    border: 1px solid var(--accent);
-    border-radius: 6px;
-    background: var(--bgcolor2);
-    background-image: url("/images/bg_pinkpuff.jpg");
+    background: (#222222;
+    background-image: url("/images/bg_imlainlol.gif");
     
-    padding:6px;
+    padding:4px;
     text-align: justify;
 }
 .stampfoot img{
