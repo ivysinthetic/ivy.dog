@@ -1,6 +1,6 @@
 :root {
-    --accent:    #bc7acc; 
-    --accent2:   #80d0df; 
+    --accent:    #d45af3; 
+    --accent2:   #f6e82c; 
     --bgcolor:   #000000e1; 
     --bgcolor2:  #222222; 
     --bgcolor3:   #383838; 
@@ -67,7 +67,6 @@ h2{
 .linksheader{
     display: grid;
     border: 1px solid var(--accent2);
-    border-radius: 4px;
     background: #222222;
     background-image: url("/images/bg_imlainlol.gif");
     max-width: 724px;
@@ -77,7 +76,7 @@ h2{
 
 .linksheader a:link {
     background: rgb(56, 44, 54);
-    color: var(--accent);
+    color: var(--accent2);
     padding:4px;
     text-decoration: none;
 }
@@ -88,7 +87,7 @@ h2{
     color: var(--accent2);
 }
 .linksheader a:hover{
-    color: black
+    color: white
 }
 
 a:link {
@@ -102,14 +101,11 @@ a:active{
     color: var(--accent);
 }
 a:hover{
-    color: black;
+    color: white;
 }
 
 .stampfoot{
-    background: #222222;
-    background-image: url("/images/bg_imlainlol.gif");
-    
-    padding:4px;
+    padding:2px;
     text-align: justify;
 }
 .stampfoot img{
