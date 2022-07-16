@@ -43,13 +43,11 @@ h2{
 }
 
 .contentwrap {
-    border: 1px solid var(--accent);
-    border-radius: 6px;
     height: 100%; 
     background: var(--bgcolor);
     max-width: 724px;
     margin: auto;
-    padding: 6px;
+    padding: 4px;
 }
 
 .titlebar {
@@ -108,7 +106,7 @@ a:hover{
 }
 
 .stampfoot{
-    background: (#222222;
+    background: #222222;
     background-image: url("/images/bg_imlainlol.gif");
     
     padding:4px;
