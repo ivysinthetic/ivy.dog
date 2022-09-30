@@ -1,6 +1,6 @@
 :root {
-    --accent:    #59ccf2; 
-    --accent2:   #f6e82c; 
+    --main:    #ffffff; 
+    --accent2:   #a15252; 
     --bgcolor:   #000000e1; 
     --bgcolor2:  #222222; 
     --bgcolor3:   #383838; 
@@ -9,7 +9,7 @@
 
 html {
     background-image: url("/images/bg_stars.gif");
-    font-family: "Liberation Mono", monospace;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
 }
 body {
@@ -23,22 +23,20 @@ body {
 img{
     max-width: 100%;
     max-height: 100%;
-    border-radius: 6px;
     /*display: block; /* remove extra space below image */
 }
 
 h1{
-    color: #222222;
-    text-shadow: 2px 2px var(--accent);
+    color: #000000;
+    mix-blend-mode: difference;
 }
 h2{
-    color: var(--accent);
+    color: var(--main);
     padding: 1px;
     padding-left: 2px;
-    border-radius: 6px;
     background: var(--accent2);
-    text-shadow: 2px 2px rgb(0, 0, 0);
-    background-image: url("/images/bg_weirdpurple.png");
+    mix-blend-mode: difference;
+    /*background-image: url("/images/bg_weirdpurple.png");*/
     
 }
 
@@ -52,8 +50,7 @@ h2{
 
 .titlebar {
     padding: 2px;
-    background: var(--accent);
-    background-image: url("/images/bg_pinkpuff.jpg");
+    background: var(--main);
 }
 
 .content {
@@ -66,7 +63,6 @@ h2{
 
 .linksheader{
     display: grid;
-    border: 1px solid var(--accent2);
     background: #222222;
     background-image: url("/images/bg_imlainlol.gif");
     max-width: 724px;
@@ -91,14 +87,14 @@ h2{
 }
 
 a:link {
-    color: var(--accent);
+    color: var(--main);
     text-decoration: none;
 }
 a:visited{
-    color: var(--accent);
+    color: var(--main);
 }
 a:active{
-    color: var(--accent);
+    color: var(--main);
 }
 a:hover{
     color: white;
