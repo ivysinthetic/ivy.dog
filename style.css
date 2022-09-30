@@ -9,7 +9,7 @@
 
 html {
     background-color: var(--bgcolor);
-    background-image: url("/images/bg_stars.gif");
+    background-image: url("/images/bg_checker.png");
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 12px;
 }
