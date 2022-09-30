@@ -1,0 +1,127 @@
+:root {
+    --accent:    #59ccf2; 
+    --accent2:   #f6e82c; 
+    --bgcolor:   #000000e1; 
+    --bgcolor2:  #222222; 
+    --bgcolor3:   #383838; 
+    --text-color: #ffffff;
+}
+
+html {
+    background-image: url("/images/bg_stars.gif");
+    font-family: "Liberation Mono", monospace;
+    font-size: 14px;
+}
+body {
+    margin: 8px auto;
+    overflow: auto;
+    height: 100%;
+    max-width: 724px;
+    padding: 4px;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 6px;
+    /*display: block; /* remove extra space below image */
+}
+
+h1{
+    color: #222222;
+    text-shadow: 2px 2px var(--accent);
+}
+h2{
+    color: var(--accent);
+    padding: 1px;
+    padding-left: 2px;
+    border-radius: 6px;
+    background: var(--accent2);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    background-image: url("/images/bg_weirdpurple.png");
+    
+}
+
+.contentwrap {
+    height: 100%; 
+    background: var(--bgcolor);
+    max-width: 724px;
+    margin: auto;
+    padding: 4px;
+}
+
+.titlebar {
+    padding: 2px;
+    background: var(--accent);
+    background-image: url("/images/bg_pinkpuff.jpg");
+}
+
+.content {
+    height:100%;
+    margin: auto;
+    color:var(--text-color);
+    padding: 6px;
+    padding-top: 1px;
+}
+
+.linksheader{
+    display: grid;
+    border: 1px solid var(--accent2);
+    background: #222222;
+    background-image: url("/images/bg_imlainlol.gif");
+    max-width: 724px;
+    text-align: justify;
+    padding: 2px;
+}
+
+.linksheader a:link {
+    background: rgb(56, 44, 54);
+    color: var(--accent2);
+    padding:4px;
+    text-decoration: none;
+}
+.linksheader a:visited{
+    color: var(--accent2);
+}
+.linksheader a:active{
+    color: var(--accent2);
+}
+.linksheader a:hover{
+    color: white
+}
+
+a:link {
+    color: var(--accent);
+    text-decoration: none;
+}
+a:visited{
+    color: var(--accent);
+}
+a:active{
+    color: var(--accent);
+}
+a:hover{
+    color: white;
+}
+
+.stampfoot{
+    padding:2px;
+    text-align: justify;
+}
+.stampfoot img{
+    max-width: 100%;
+}
+.footer {
+    color: #868387;
+    font-family: 'Times New Roman', serif;
+    font-size: 10px;
+    padding: 4px;
+    text-align:justify;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    list-style-type: none;
+    padding: 2px;
+}
