@@ -27,14 +27,13 @@ img{
 }
 
 h1{
-    color: #000000;
+    color:var(--text-color);
     mix-blend-mode: difference;
 }
 h2{
     color: var(--main);
     padding: 1px;
     padding-left: 2px;
-    background: var(--accent2);
     mix-blend-mode: difference;
     /*background-image: url("/images/bg_weirdpurple.png");*/
     
