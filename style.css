@@ -1,10 +1,10 @@
 :root {
     --main:    #ffffff; 
-    --accent2:   #a15252; 
+    --accent2:   #ffffff; 
     --bgcolor:   #000000e1; 
     --bgcolor2:  #222222; 
     --bgcolor3:   #383838; 
-    --text-color: #ffffff;
+    --text-color: #dfdfdf;
 }
 
 html {
@@ -63,8 +63,6 @@ h2{
 
 .linksheader{
     display: grid;
-    background: #222222;
-    background-image: url("/images/bg_imlainlol.gif");
     max-width: 724px;
     text-align: justify;
     padding: 2px;
