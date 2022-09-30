@@ -1,8 +1,8 @@
 :root {
     --main:    #ffffff; 
     --accent2:   #ffffff; 
-    --bgcolor:   #000000e1; 
-    --bgcolor2:  #222222; 
+    --bgcolor:   #000000; 
+    --bgcolor2:  #000000d0; 
     --bgcolor3:   #383838; 
     --text-color: #dfdfdf;
 }
@@ -42,7 +42,6 @@ h2{
 
 .contentwrap {
     height: 100%; 
-    background: var(--bgcolor);
     max-width: 724px;
     margin: auto;
     padding: 4px;
@@ -50,13 +49,14 @@ h2{
 
 .titlebar {
     padding: 2px;
-    background: var(--bgcolor);
+    background: var(--bgcolor2);
     background-image: url("/images/v3/headerbg.png");
 }
 
 .content {
     height:100%;
     margin: auto;
+    background: var(--bgcolor2);
     color:var(--text-color);
     padding: 6px;
     padding-top: 1px;
