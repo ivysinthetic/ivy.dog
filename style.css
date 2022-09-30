@@ -2,7 +2,7 @@
     --main:    #ffffff; 
     --accent2:   #ffffff; 
     --bgcolor:   #000000; 
-    --bgcolor2:  #00000091; 
+    --bgcolor2:  #000000dc; 
     --bgcolor3:   #000000; 
     --text-color: #dfdfdf;
 }
@@ -43,6 +43,7 @@ h2{
 .contentwrap {
     height: 100%; 
     max-width: 724px;
+    background: var(--bgcolor2);
     margin: auto;
     padding: 4px;
 }
