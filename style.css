@@ -9,8 +9,9 @@
 
 html {
     background-color: var(--bgcolor);
+    background-image: url("/images/bg_stars.gif");
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 14px;
+    font-size: 12px;
 }
 body {
     margin: 8px auto;
