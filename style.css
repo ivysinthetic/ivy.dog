@@ -2,13 +2,12 @@
     --main:    #ffffff; 
     --accent2:   #ffffff; 
     --bgcolor:   #000000; 
-    --bgcolor2:  #000000d0; 
-    --bgcolor3:   #383838; 
+    --bgcolor2:  #00000091; 
+    --bgcolor3:   #000000; 
     --text-color: #dfdfdf;
 }
 
 html {
-    /*background-image: url("/images/bg_stars.gif");*/
     background-color: var(--bgcolor);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
