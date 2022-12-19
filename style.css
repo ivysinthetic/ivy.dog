@@ -11,7 +11,7 @@ html {
     background-color: var(--bgcolor);
     background-image: url("/images/bg_checker.png");
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 12px;
+    font-size: 14px;
 }
 body {
     margin: 8px auto;
