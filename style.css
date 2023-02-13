@@ -1,6 +1,7 @@
 :root {
     --main:    #d5e9e4; 
-    --accent2:   #0abb8f; 
+    --linkColor:   #db738d; 
+    --linkHover:   #ffffff; 
     --bgcolor:   #d5e9e4; 
     --bgcolor2:  #bddcd4dc; 
     --bgcolor3:   #ffffff; 
@@ -33,10 +34,9 @@ h1{
     mix-blend-mode: difference;
 }
 h2{
-    color: var(--main);
+    color: var(--text-color);
     padding: 1px;
     padding-left: 2px;
-    mix-blend-mode: difference;
     /*background-image: url("/images/bg_weirdpurple.png");*/
     
 }
@@ -76,10 +76,10 @@ h2{
     text-decoration: none;
 }
 .linksheader a:visited{
-    color: var(--accent2);
+    color: var(--linkColor);
 }
 .linksheader a:active{
-    color: var(--accent2);
+    color: var(--linkColor);
 }
 .linksheader a:hover{
     color: white
