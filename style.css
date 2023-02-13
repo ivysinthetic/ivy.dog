@@ -40,6 +40,12 @@ h2{
     
 }
 
+.titlebar {
+    padding: 8px;
+    background: var(--bgcolor3);
+    background-image: url("/images/v4/headerimg.png");
+}
+
 .contentwrap {
     height: 100%; 
     max-width: 724px;
@@ -50,12 +56,6 @@ h2{
     border-style: solid;
     border-color: var(--bgcolor2);
     border-width: 2px;
-}
-
-.titlebar {
-    padding: 8px;
-    background: var(--bgcolor3);
-    background-image: url("/images/v4/headerimg.png");
 }
 
 .content {
