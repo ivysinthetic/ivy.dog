@@ -62,7 +62,7 @@ h2{
     height:100%;
     margin: auto;
     background: var(--bgcolor);
-    color:var(--text-color);
+    color:var(--bgcolor2);
     padding: 10px;
     padding-top: 1px;
 }
@@ -110,7 +110,7 @@ a:hover{
     max-width: 100%;
 }
 .footer {
-    color: var(--bgcolor3);
+    color: var(--bgcolor2);
     font-family: 'Times New Roman', serif;
     font-size: 10px;
     padding: 4px;
