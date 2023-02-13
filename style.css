@@ -126,3 +126,19 @@ a:hover{
     list-style-type: none;
     padding: 2px;
 }
+
+.avatar {
+    border-style: solid;
+    border-color: var(--bgcolor2);
+    border-width: 2px;
+
+    padding: 2px;
+
+    position: relative;
+}
+
+.avatar img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
