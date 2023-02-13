@@ -3,7 +3,7 @@
     --linkColor:   #db738d; 
     --linkHover:   #ffffff; 
     --bgcolor:   #d5e9e4; 
-    --bgcolor2:  #bddcd4dc; 
+    --bgcolor2:  #bbe6db; 
     --bgcolor3:   #ffffff; 
     --text-color: #248c72;
 }
@@ -12,7 +12,7 @@ html {
     background-color: var(--bgcolor);
     background-image: url("/images/bg_checker_cyan.png");
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.2;
 }
 body {
@@ -82,21 +82,21 @@ h2{
     color: var(--linkColor);
 }
 .linksheader a:hover{
-    color: white
+    color: var(--linkHover);
 }
 
 a:link {
-    color: var(--main);
+    color: var(--linkColor);
     text-decoration: none;
 }
 a:visited{
-    color: var(--main);
+    color: var(--linkColor);
 }
 a:active{
-    color: var(--main);
+    color: var(--linkColor);
 }
 a:hover{
-    color: white;
+    color: var(--linkHover);
 }
 
 .stampfoot{
@@ -107,7 +107,7 @@ a:hover{
     max-width: 100%;
 }
 .footer {
-    color: #868387;
+    color: var(--bgcolor3);
     font-family: 'Times New Roman', serif;
     font-size: 10px;
     padding: 4px;
