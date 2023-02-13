@@ -1,7 +1,7 @@
 :root {
     --main:    #d5e9e4; 
     --linkColor:   #db738d; 
-    --linkHover:   #ffffff; 
+    --linkHover:   #ff5781; 
     --bgcolor:   #d5e9e4; 
     --bgcolor2:  #248c72; 
     --bgcolor3:   #ffffff; 
@@ -35,7 +35,7 @@ h1{
 h2{
     color: var(--text-color);
     padding: 1px;
-    padding-left: 5px;
+    padding-left: 1px;
     /*background-image: url("/images/bg_weirdpurple.png");*/
     
 }
@@ -54,7 +54,7 @@ h2{
 
 .titlebar {
     padding: 4px;
-    background: var(--bgcolor2);
+    background: var(--bgcolor3);
     background-image: url("/images/v4/headerimg.png");
 }
 
@@ -63,7 +63,8 @@ h2{
     margin: auto;
     background: var(--bgcolor3);
     color:var(--text-color);
-    padding: 10px;
+    padding: 5px;
+    padding-left: 10px;
     padding-top: 1px;
 }
 
@@ -76,6 +77,7 @@ h2{
 
 .linksheader a:link {
     padding:4px;
+    font-size: 24px;
     text-decoration: none;
 }
 .linksheader a:visited{
@@ -91,6 +93,7 @@ h2{
 a:link {
     color: var(--linkColor);
     text-decoration: none;
+    font-size: 18px;
 }
 a:visited{
     color: var(--linkColor);
