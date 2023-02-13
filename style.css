@@ -53,7 +53,7 @@ h2{
 }
 
 .titlebar {
-    padding: 4px;
+    padding: 8px;
     background: var(--bgcolor3);
     background-image: url("/images/v4/headerimg.png");
 }
