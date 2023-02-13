@@ -43,9 +43,13 @@ h2{
 .contentwrap {
     height: 100%; 
     max-width: 724px;
-    background: var(--bgcolor2);
+    background: var(--bgcolor);
     margin: auto;
     padding: 8px;
+    
+    border-style: solid;
+    border-color: var(--bgcolor2);
+    border-width: 2px;
 }
 
 .titlebar {
@@ -57,7 +61,7 @@ h2{
 .content {
     height:100%;
     margin: auto;
-    background: var(--bgcolor2);
+    background: var(--bgcolor);
     color:var(--text-color);
     padding: 10px;
     padding-top: 1px;
