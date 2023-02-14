@@ -125,7 +125,7 @@ a:hover{
 }
 
 .avatar {
-    transition: all .1s cubic-bezier(.17,.67,.69,.93);
+    transition: all .2s cubic-bezier(0,-0.78,.25,1.4);
     transform: rotate(0deg) scale(100%);
 
     border-style: solid;
@@ -136,6 +136,6 @@ a:hover{
 }
 
 .avatar:hover {
-    transform: rotate(3deg) scale3d(105%, 105%, 110%);
+    transform: rotate(4deg) scale(107%);
     border-width: 2px;
 }
