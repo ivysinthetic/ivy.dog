@@ -45,12 +45,10 @@ h2{
     padding: 8px;
     background: var(--bgcolor3);
     background-image: url("/images/v4/headerimg.png");
-    background-size: 100%;
     letter-spacing: normal;
 
 }
 .titlebar:hover {
-    background-size: 105%;
     letter-spacing: .2em;
 }
 
@@ -105,9 +103,9 @@ a:active{
 a:hover{
     letter-spacing: .2em;
     color: var(--bgcolor3);
-    transform:scale(103%, 108%) rotate(-1deg);
+    transform:scale(103%, 110%) rotate(1deg);
     background-color: var(--linkHover);
-    border-width: 5px;
+    border-width: 6px, 3px;
     border-color: var(--linkHover);
     border-style: solid;
 }
