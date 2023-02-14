@@ -76,7 +76,7 @@ h2{
 }
 
 .linksheader a:link {
-    transition: all 0.2s cubic-bezier(.17,.67,.69,.93);
+    transition: all 0.1s cubic-bezier(.17,.67,.69,.93);
     transform: scale(100%);
     padding:4px;
     font-size: 24px;
@@ -93,13 +93,13 @@ h2{
     color: var(--bgcolor3);
     transform:scale(105%);
     background-color: var(--linkHover);
-    border-width: 2px;
+    border-width: 5px;
     border-color: var(--linkHover);
     border-style: solid;
 }
 
 a:link {
-    transition: all 0.2s cubic-bezier(.17,.67,.69,.93);
+    transition: all 0.1s cubic-bezier(.17,.67,.69,.93);
     transform: scale(100%);
     color: var(--linkColor);
     text-decoration: none;
@@ -117,7 +117,7 @@ a:hover{
     color: var(--bgcolor3);
     transform:scale(105%);
     background-color: var(--linkHover);
-    border-width: 2px;
+    border-width: 5px;
     border-color: var(--linkHover);
     border-style: solid;
 }
@@ -145,7 +145,7 @@ a:hover{
 }
 
 .avatar {
-    transition: all cubic-bezier(.17,.67,.69,.93);
+    transition: all .2s cubic-bezier(.17,.67,.69,.93);
     border-style: solid;
     border-color: var(--bgcolor2);
     border-width: 2px;
