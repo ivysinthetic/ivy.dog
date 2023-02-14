@@ -136,6 +136,6 @@ a:hover{
 }
 
 .avatar:hover {
-    transform: rotate(3deg) scale(105%);
-    border-width: 4px;
+    transform: rotate(3deg) scale3d(105%, 105%, 110%);
+    border-width: 2px;
 }
