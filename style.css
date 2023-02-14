@@ -95,9 +95,9 @@ a:active{
     color: var(--linkColor);
 }
 a:hover{
-    letter-spacing: .6em;
+    letter-spacing: .4em;
     color: var(--bgcolor3);
-    transform:scale(115%) rotate(1deg);
+    transform:scale(105%, 125%) rotate(1deg);
     background-color: var(--linkHover);
     border-width: 5px;
     border-color: var(--linkHover);
