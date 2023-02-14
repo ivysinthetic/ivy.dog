@@ -128,7 +128,7 @@ a:hover{
 }
 
 .avatar {
-    transition: cubic-bezier(.17,.67,.69,.93);
+    
     border-style: solid;
     border-color: var(--bgcolor2);
     border-width: 2px;
@@ -138,6 +138,7 @@ a:hover{
 }
 
 .avatar:hover {
+    transition: cubic-bezier(.17,.67,.69,.93);
     border-style: solid;
     border-color: var(--bgcolor2);
     border-width: 2px;
