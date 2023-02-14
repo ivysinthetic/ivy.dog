@@ -154,4 +154,5 @@ a:hover{
 
 ::selection {
     background: var(--linkColor);
+    color: var(--bgcolor3);
   }
