@@ -1,7 +1,7 @@
 :root {
     --main:    #d5e9e4; 
     --linkColor:   #db738d; 
-    --linkHover:   #ff5781; 
+    --linkHover:   #ff4271; 
     --bgcolor:   #d5e9e4; 
     --bgcolor2:  #248c72; 
     --bgcolor3:   #ffffff; 
@@ -91,8 +91,8 @@ h2{
 }
 
 a:link {
-    transition: transform 0.2s cubic-bezier(.17,.67,.69,.93);
-    transform: rotate(0deg);
+    transition: all 0.2s cubic-bezier(.17,.67,.69,.93);
+    transform: scale(100%);
     color: var(--linkColor);
     text-decoration: none;
     font-size: 18px;
@@ -105,7 +105,7 @@ a:active{
 }
 a:hover{
     color: var(--linkHover);
-    transform:rotate(2deg);
+    transform:scale(105%);
 }
 
 .stampfoot{
@@ -138,6 +138,7 @@ a:hover{
     position: relative;
     float: right;
     transform: rotate(0deg);
+    transform: scale(100%);
 }
 
 .avatar:hover {
@@ -147,5 +148,6 @@ a:hover{
     border-width: 2px;
     position: relative;
     float: right;
-    transform:rotate(8deg);
+    transform:rotate(3deg);
+    transform: scale(110%);
 }
