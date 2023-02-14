@@ -148,5 +148,5 @@ a:hover{
 
 .avatar:hover {
     transform: rotate(4deg) scale(115%);
-    filter: drop-shadow(5px 5px 5px var(--bgcolor2));
+    filter: drop-shadow(7px 7px 5px var(--bgcolor2));
 }
