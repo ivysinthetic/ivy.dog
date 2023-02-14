@@ -112,7 +112,7 @@ a:hover{
     border-width: 10px, 5px;
     border-color: var(--linkHover);
     border-style: solid;
-    filter: drop-shadow(7px 7px 5px var(--bgcolor2));
+    filter: drop-shadow(3px 3px 1px var(--bgcolor2));
 }
 
 .stampfoot{
