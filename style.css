@@ -41,9 +41,17 @@ h2{
 }
 
 .titlebar {
+    transition: all .2s cubic-bezier(0,-0.78,.25,1.4);
     padding: 8px;
     background: var(--bgcolor3);
     background-image: url("/images/v4/headerimg.png");
+    background-size: 100%;
+    letter-spacing: normal;
+
+}
+.titlebar:hover {
+    background-size: 105%;
+    letter-spacing: .2em;
 }
 
 .contentwrap {
@@ -95,9 +103,9 @@ a:active{
     color: var(--linkColor);
 }
 a:hover{
-    letter-spacing: .4em;
+    letter-spacing: .2em;
     color: var(--bgcolor3);
-    transform:scale(105%, 125%) rotate(1deg);
+    transform:scale(103%, 108%) rotate(-1deg);
     background-color: var(--linkHover);
     border-width: 5px;
     border-color: var(--linkHover);
