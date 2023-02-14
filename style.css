@@ -73,29 +73,8 @@ h2{
     max-width: 724px;
     text-align: justify;
     padding: 2px;
-}
-
-.linksheader a:link {
-    transition: all 0.1s cubic-bezier(.17,.67,.69,.93);
-    transform: scale(100%) rotate(0deg);
     padding:4px;
     font-size: 24px;
-    text-decoration: none;
-    border-style: hidden;
-}
-.linksheader a:visited{
-    color: var(--linkColor);
-}
-.linksheader a:active{
-    color: var(--linkColor);
-}
-.linksheader a:hover{
-    color: var(--bgcolor3);
-    transform:scale(110%) rotate(-3deg);
-    background-color: var(--linkHover);
-    border-width: 5px;
-    border-color: var(--linkHover);
-    border-style: solid;
 }
 
 a:link {
