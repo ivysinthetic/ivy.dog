@@ -133,6 +133,6 @@ a:hover{
     border-width: 2px;
     position: absolute;
     float: right;
-    top: 0px;
-    right: -128px;
+    top: 128px;
+    right: 128px;
 }
