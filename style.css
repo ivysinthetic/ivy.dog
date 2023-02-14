@@ -131,13 +131,7 @@ a:hover{
     border-style: solid;
     border-color: var(--bgcolor2);
     border-width: 2px;
-
-    padding: 2px;
-
-    position: relative;
-}
-
-.avatar img {
     position: absolute;
     float: right;
+    padding: 2px;
 }
