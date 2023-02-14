@@ -128,7 +128,7 @@ a:hover{
 }
 
 .avatar {
-    transition: all cubic-bezier(.17,.67,.69,.93);
+    transition: transform 0.7s cubic-bezier(.17,.67,.69,.93);
     border-style: solid;
     border-color: var(--bgcolor2);
     border-width: 2px;
@@ -144,5 +144,5 @@ a:hover{
     border-width: 2px;
     position: relative;
     float: right;
-    transform:rotate(5deg);
+    transform:rotate(8deg);
 }
