@@ -105,7 +105,7 @@ a:hover{
     color: var(--bgcolor3);
     transform:scale(103%, 110%) rotate(1deg);
     background-color: var(--linkHover);
-    border-width: 6px, 3px;
+    border-width: 10px, 5px;
     border-color: var(--linkHover);
     border-style: solid;
 }
