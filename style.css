@@ -79,7 +79,7 @@ h2{
 
 a:link {
     display: inline-block;
-    transition: all 0.1s cubic-bezier(.17,.67,.69,.93);
+    transition: all 0.1s cubic-bezier(0,.59,.62,1.01);
     transform: scale(100%) rotate(0deg);
     color: var(--linkColor);
     text-decoration: none;
@@ -95,7 +95,7 @@ a:active{
 }
 a:hover{
     color: var(--bgcolor3);
-    transform:scale(110%) rotate(-5deg);
+    transform:scale(115%) rotate(1deg);
     background-color: var(--linkHover);
     border-width: 5px;
     border-color: var(--linkHover);
