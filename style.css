@@ -125,21 +125,18 @@ a:hover{
 }
 
 .avatar {
-    transition: all .2s cubic-bezier(.17,.67,.69,.93);
     border-style: solid;
     border-color: var(--bgcolor2);
     border-width: 2px;
     position: relative;
     float: right;
+}
+
+.avatar img{
+    transition: all .2s cubic-bezier(.17,.67,.69,.93);
     transform: rotate(0deg) scale(100%);
 }
 
-.avatar:hover {
-    
-    border-style: solid;
-    border-color: var(--bgcolor2);
-    border-width: 2px;
-    position: relative;
-    float: right;
-    transform: rotate(3deg) scale(105%);
+.avatar img:hover {
+    transform: rotate(3deg) scale(115%);
 }
