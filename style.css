@@ -78,6 +78,7 @@ h2{
 }
 
 a:link {
+    letter-spacing: normal;
     display: inline-block;
     transition: all 0.1s cubic-bezier(0,.59,.62,1.01);
     transform: scale(100%) rotate(0deg);
@@ -94,6 +95,7 @@ a:active{
     color: var(--linkColor);
 }
 a:hover{
+    letter-spacing: 0.3em;
     color: var(--bgcolor3);
     transform:scale(115%) rotate(1deg);
     background-color: var(--linkHover);
