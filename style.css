@@ -140,7 +140,7 @@ a:hover{
     transition: all .2s cubic-bezier(0,-0.78,.25,1.4);
     transform: rotate(0deg) scale(100%);
 
-    border-style: solid;
+    border-style: hidden;
     border-radius: 6px;
     position: relative;
     float: right;
@@ -148,5 +148,5 @@ a:hover{
 
 .avatar:hover {
     transform: rotate(4deg) scale(115%);
-    filter: drop-shadow(30px 10px 4px var(--bgcolor2));
+    filter: drop-shadow(15px 10px 8px var(--bgcolor2));
 }
