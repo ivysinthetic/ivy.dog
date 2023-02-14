@@ -33,7 +33,7 @@ h1{
     mix-blend-mode: difference;
 }
 h2{
-    transition: all .2s cubic-bezier(0,-0.78,.25,1.4);
+    transition: all .3s cubic-bezier(0,-0.78,.25,1.4);
     letter-spacing: normal;
 
     color: var(--text-color);
@@ -41,11 +41,11 @@ h2{
     padding-left: 1px;
 }
 h2:hover{
-    letter-spacing: .2em;
+    letter-spacing: .1em;
 }
 
 .titlebar {
-    transition: all .2s cubic-bezier(0,-0.78,.25,1.4);
+    transition: all .3s cubic-bezier(0,-0.78,.25,1.4);
     padding: 8px;
     background: var(--bgcolor3);
     background-image: url("/images/v4/headerimg.png");
@@ -90,7 +90,7 @@ h2:hover{
 a:link {
     letter-spacing: normal;
     display: inline-block;
-    transition: all 0.1s cubic-bezier(0,.59,.62,1.01);
+    transition: all .2s cubic-bezier(0,-0.78,.25,1.4);
     transform: scale(100%) rotate(0deg);
     color: var(--linkColor);
     text-decoration: none;
@@ -148,6 +148,6 @@ a:hover{
 }
 
 .avatar:hover {
-    transform: rotate(4deg) scale(107%);
+    transform: rotate(4deg) scale(115%);
     border-width: 2px;
 }
