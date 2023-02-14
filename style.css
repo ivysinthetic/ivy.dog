@@ -82,7 +82,7 @@ a:link {
     transform: scale(100%) rotate(0deg);
     color: var(--linkColor);
     text-decoration: none;
-    font-size: 1.75v;
+    font-size: 20px;
     border-width: 0px;
     border-style: hidden;
 }
