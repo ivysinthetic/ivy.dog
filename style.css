@@ -76,9 +76,12 @@ h2{
 }
 
 .linksheader a:link {
+    transition: all 0.2s cubic-bezier(.17,.67,.69,.93);
+    transform: scale(100%);
     padding:4px;
     font-size: 24px;
     text-decoration: none;
+    border-style: hidden;
 }
 .linksheader a:visited{
     color: var(--linkColor);
@@ -87,7 +90,12 @@ h2{
     color: var(--linkColor);
 }
 .linksheader a:hover{
-    color: var(--linkHover);
+    color: var(--bgcolor3);
+    transform:scale(105%);
+    background-color: var(--linkHover);
+    border-width: 2px;
+    border-color: var(--linkHover);
+    border-style: solid;
 }
 
 a:link {
@@ -96,6 +104,8 @@ a:link {
     color: var(--linkColor);
     text-decoration: none;
     font-size: 18px;
+    border-width: 0px;
+    border-style: hidden;
 }
 a:visited{
     color: var(--linkColor);
@@ -107,6 +117,9 @@ a:hover{
     color: var(--bgcolor3);
     transform:scale(105%);
     background-color: var(--linkHover);
+    border-width: 2px;
+    border-color: var(--linkHover);
+    border-style: solid;
 }
 
 .stampfoot{
@@ -132,7 +145,7 @@ a:hover{
 }
 
 .avatar {
-    transition: transform all cubic-bezier(.17,.67,.69,.93);
+    transition: all cubic-bezier(.17,.67,.69,.93);
     border-style: solid;
     border-color: var(--bgcolor2);
     border-width: 2px;
