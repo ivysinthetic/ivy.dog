@@ -138,11 +138,10 @@ a:hover{
 }
 
 .avatar:hover {
-    transition: cubic-bezier(.17,.67,.69,.93);
+    transition: rotate(5deg) cubic-bezier(.17,.67,.69,.93);
     border-style: solid;
     border-color: var(--bgcolor2);
     border-width: 2px;
     position: relative;
     float: right;
-    transform: rotate(5deg);
 }
