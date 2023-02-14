@@ -33,11 +33,15 @@ h1{
     mix-blend-mode: difference;
 }
 h2{
+    transition: all .2s cubic-bezier(0,-0.78,.25,1.4);
+    letter-spacing: normal;
+
     color: var(--text-color);
     padding: 1px;
     padding-left: 1px;
-    /*background-image: url("/images/bg_weirdpurple.png");*/
-    
+}
+h2:hover{
+    letter-spacing: .2em;
 }
 
 .titlebar {
@@ -103,7 +107,7 @@ a:active{
 a:hover{
     letter-spacing: .2em;
     color: var(--bgcolor3);
-    transform:scale(103%, 110%) rotate(1deg);
+    transform:scale(103%, 114%) rotate(1deg);
     background-color: var(--linkHover);
     border-width: 10px, 5px;
     border-color: var(--linkHover);
