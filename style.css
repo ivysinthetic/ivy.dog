@@ -78,6 +78,7 @@ h2{
 }
 
 a:link {
+    display: inline-block;
     transition: all 0.1s cubic-bezier(.17,.67,.69,.93);
     transform: scale(100%) rotate(0deg);
     color: var(--linkColor);
