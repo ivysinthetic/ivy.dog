@@ -104,8 +104,9 @@ a:active{
     color: var(--linkColor);
 }
 a:hover{
-    color: var(--linkHover);
+    color: var(--bgcolor3);
     transform:scale(105%);
+    background-color: var(--linkHover);
 }
 
 .stampfoot{
@@ -131,14 +132,13 @@ a:hover{
 }
 
 .avatar {
-    transition: transform 0.2s cubic-bezier(.17,.67,.69,.93);
+    transition: transform all cubic-bezier(.17,.67,.69,.93);
     border-style: solid;
     border-color: var(--bgcolor2);
     border-width: 2px;
     position: relative;
     float: right;
-    transform: rotate(0deg);
-    transform: scale(100%);
+    transform: rotate(0deg) scale(100%);
 }
 
 .avatar:hover {
@@ -148,6 +148,5 @@ a:hover{
     border-width: 2px;
     position: relative;
     float: right;
-    transform:rotate(3deg);
-    transform: scale(110%);
+    transform: rotate(3deg) scale(105%);
 }
