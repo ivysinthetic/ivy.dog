@@ -128,10 +128,20 @@ a:hover{
 }
 
 .avatar {
+    transition: cubic-bezier(.17,.67,.69,.93);
     border-style: solid;
     border-color: var(--bgcolor2);
     border-width: 2px;
     position: relative;
     float: right;
-    transform: rotate(3deg);
+    transform: rotate(0deg);
+}
+
+.avatar hover {
+    border-style: solid;
+    border-color: var(--bgcolor2);
+    border-width: 2px;
+    position: relative;
+    float: right;
+    transform: rotate(5deg);
 }
