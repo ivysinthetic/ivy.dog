@@ -141,7 +141,8 @@ a:hover{
     transform: rotate(0deg) scale(100%);
 
     border-style: solid;
-    border-color: var(--bgcolor2);
+    border-radius: 6px;
+    border-color: var(--bgcolor3);
     border-width: 2px;
     position: relative;
     float: right;
