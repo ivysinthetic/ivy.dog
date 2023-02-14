@@ -137,7 +137,7 @@ a:hover{
     transform: rotate(0deg);
 }
 
-.avatar hover {
+.avatar:hover {
     border-style: solid;
     border-color: var(--bgcolor2);
     border-width: 2px;
