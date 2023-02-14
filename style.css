@@ -142,13 +142,11 @@ a:hover{
 
     border-style: solid;
     border-radius: 6px;
-    border-color: var(--bgcolor3);
-    border-width: 2px;
     position: relative;
     float: right;
 }
 
 .avatar:hover {
     transform: rotate(4deg) scale(115%);
-    border-width: 2px;
+    filter: drop-shadow(30px 10px 4px var(--bgcolor2));
 }
