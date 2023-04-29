@@ -1,118 +1,157 @@
 :root {
-    --main:    #d5e9e4; 
-    --linkColor:   #db738d; 
-    --linkHover:   #ff4271; 
-    --bgcolor:   #d5e9e4; 
-    --bgcolor2:  #248c72; 
-    --bgcolor3:   #ffffff; 
-    --text-color: #248c72;
+    --accent:   #ffd900;
+    --pagebg:   #000000; 
+    --selection:  #ffffff98; 
+    --sectionbg:   #ffffff07; 
+    --header-color: #000000;
+    --text-color: #ffffff;
 }
 html {
-    background-color: var(--bgcolor);
+    background: var(--pagebg);
     /*background-image: url("/images/bg_checker_cyan.png");*/
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
-    line-height: 1.2;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
 }
 body {
-    margin: 8px auto;
-    overflow: auto;
-    height: 100%;
-    max-width: 724px;
-    padding: 4px;
+    margin:0px;
 }
-
-img{
-    max-width: 100%;
-    max-height: 100%;
-    /*display: block; /* remove extra space below image */
-}
-
 h1{
-    color:var(--text-color);
-    mix-blend-mode: difference;
-}
-h2{
-    transition: all .3s cubic-bezier(0,-0.78,.25,1.4);
-    letter-spacing: normal;
+    background: var(--accent);
+    color:var(--header-color);
 
-    color: var(--text-color);
-    padding: 1px;
-    padding-left: 1px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 128px;
+    padding-right: 128px;
+
+    font-size: 2.2em;
+    line-height: .9em;
 }
-h2:hover{
-    letter-spacing: .1em;
+h2 {
+    background: var(--selection);
+    color:var(--header-color);
+
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+    font-size: 1.8em;
+}
+a:link {
+    display: inline-block;
+    transition: all .2s cubic-bezier(0,-0.78,.25,1.4);
+    transform: scale(100%) rotate(0deg);
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 1.5em;
+    padding:1%;
+}
+a:visited{
+    color: var(--accent);
+}
+a:hover{
+    color: var(--pagebg);
+    transform:scale(105%, 105%);
+    background-color: var(--accent);
+    filter: drop-shadow(0px 0px 2px var(--accent));
+
+    animation-name: floating;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 .titlebar {
-    transition: all .3s cubic-bezier(0,-0.78,.25,1.4);
-    padding: 8px;
-    background: var(--bgcolor3);
-    background-image: url("/images/v4/headerimg.png");
-    letter-spacing: normal;
-
-}
-.titlebar:hover {
-    letter-spacing: .2em;
-}
-
-.contentwrap {
-    height: 100%; 
-    max-width: 724px;
-    background: var(--bgcolor3);
-    margin: auto;
-    padding: 8px;
-    
-    border-style: solid;
-    border-color: var(--bgcolor2);
-    border-width: 2px;
-}
-
-.content {
-    /*height:100%;*/
-    margin: auto;
-    background: var(--bgcolor3);
-    color:var(--text-color);
-    padding: 5px;
-    padding-left: 10px;
-    padding-top: 1px;
+    margin:auto;
+    color:var(--header-color);
+    background: var(--accent);
+    font-size: 5.2em;
+    line-height: .8em;
+    padding-top:1%;
+    padding-bottom:1%;
 }
 
 .linksheader{
     display: grid;
-    max-width: 724px;
     text-align: justify;
-    padding: 2px;
-    padding:4px;
-    font-size: 24px;
+    margin-top:0%;
+    margin-bottom:0%;
+    padding-top:1%;
+    padding-bottom:1%;
 }
 
-a:link {
-    letter-spacing: normal;
-    display: inline-block;
-    transition: all .2s cubic-bezier(0,-0.78,.25,1.4);
-    transform: scale(100%) rotate(0deg);
-    color: var(--linkColor);
-    text-decoration: none;
-    font-size: 20px;
-    border-width: 0px;
-    border-style: hidden;
+.contentwrap {
+    background:var(--sectionbg);
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0;
+    padding-bottom:0;
+    max-width: 950px;
 }
-a:visited{
-    color: var(--linkColor);
+
+.content {
+    width:100%;
+    margin:auto;
 }
-a:active{
-    color: var(--linkColor);
+
+.windowcenter{
+    text-align: center;
+
+    color:var(--text-color);
+
+    width:fit-content;
+
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+    clear:both;
+    margin:auto;
 }
-a:hover{
-    letter-spacing: .2em;
-    color: var(--bgcolor3);
-    transform:scale(103%, 114%) rotate(1deg);
-    background-color: var(--linkHover);
-    border-width: 10px, 5px;
-    border-color: var(--linkHover);
-    border-style: solid;
-    filter: drop-shadow(4px 4px 2px var(--bgcolor2));
+
+.left {
+    background:var(--sectionbg);
+    color:var(--text-color);
+
+    width:fit-content;
+    max-width:45%;
+
+    padding-left: 2em;
+    padding-right: 2em;
+
+    clear:both;
+    float:left;
+
+    left:0;
+    transform: rotate(-2deg);
+}
+
+.right {
+    background:var(--sectionbg);
+    color:var(--text-color);
+
+    text-align: right;
+
+    width:fit-content;
+    max-width:45%;
+
+    padding-left: 2em;
+    padding-right: 2em;
+
+    clear:both;
+    float:right;
+
+    right:0; 
+    transform: rotate(2deg);
+}
+
+.timestamp {
+    font-size: .8em;
+    color: var(--selection);
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .stampfoot{
@@ -123,11 +162,15 @@ a:hover{
     max-width: 100%;
 }
 .footer {
-    color: var(--bgcolor2);
+    width:100%;
+    background: var(--accent);
     font-family: 'Times New Roman', serif;
-    font-size: 10px;
-    padding: 4px;
+    font-size: .8em;
+    padding: 0px;
+    clear:both;
+    bottom:0;
     text-align:justify;
+    float: inline-end;
 }
 .grid {
     display: grid;
@@ -137,22 +180,26 @@ a:hover{
     padding: 2px;
 }
 
+@keyframes floating {
+    0% { transform:scale(105%, 105%); }
+    50% { transform: scale(115%,  105%); } 
+    100%  { transform:scale(105%, 105%); } 
+}
 .avatar {
     transition: all .2s cubic-bezier(0,-0.78,.25,1.4);
     transform: rotate(0deg) scale(100%);
-
-    border-style: hidden;
-    border-radius: 6px;
-    position: relative;
+    position: absolute;
     float: right;
+    right:0;
+    padding: 12px;
 }
 
 .avatar:hover {
-    transform: rotate(4deg) scale(115%);
-    filter: drop-shadow(7px 7px 5px var(--bgcolor2));
+    transform: rotate(1deg) scale(102%);
+    filter: drop-shadow(2px 2px 2px var(--accent));
 }
 
 ::selection {
-    background: var(--linkColor);
-    color: var(--bgcolor3);
+    background: var(--selection);
+    color: var(--pagebg);
   }
