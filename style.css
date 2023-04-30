@@ -10,7 +10,7 @@ html {
     background: var(--pagebg);
     /*background-image: url("/images/bg_checker_cyan.png");*/
     font-family: Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 15px;
 }
 body {
     margin:0px;
