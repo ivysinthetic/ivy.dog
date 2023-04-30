@@ -114,6 +114,8 @@ a:hover{
     background:var(--sectionbg);
     color:var(--text-color);
 
+    transform:scale(90%, 109%);
+
     width:fit-content;
     max-width:45%;
 
@@ -130,6 +132,8 @@ a:hover{
 .right {
     background:var(--sectionbg);
     color:var(--text-color);
+
+    transform:scale(90%, 109%);
 
     text-align: right;
 
