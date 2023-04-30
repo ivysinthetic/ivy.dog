@@ -44,7 +44,7 @@ img{
 a:link {
     display: inline-block;
     transition: all .2s cubic-bezier(0,-0.78,.25,1.4);
-    transform:scale(90%, 105%);
+    transform:scale(95%, 100%);
     color: var(--accent);
     text-decoration: none;
     font-size: 1.5em;
