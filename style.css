@@ -79,7 +79,6 @@ a:hover{
     padding-bottom:1%;
 }
 .linksfooter{
-    background:var(--sectionbg);
     display: grid;
     text-align: justify;
     margin-top:0%;
