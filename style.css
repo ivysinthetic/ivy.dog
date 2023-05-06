@@ -158,38 +158,15 @@ a:hover{
     transform: rotate(2deg);
 }
 
-.updateL {
+.update {
     background:var(--sectionbg);
     color:var(--text-color);
 
     width:fit-content;
-    max-width:80%;
+    max-width:50%;
 
     padding-left: 2em;
     padding-right: 2em;
-
-    clear:both;
-    float:left;
-
-    left:5;
-}
-
-.updateR {
-    background:var(--sectionbg);
-    color:var(--text-color);
-
-    text-align: right;
-
-    width:fit-content;
-    max-width:80%;
-
-    padding-left: 2em;
-    padding-right: 2em;
-
-    clear:both;
-    float:right;
-
-    right:5;
 }
 
 .timestamp {
