@@ -93,7 +93,7 @@ a:hover{
     margin-right:auto;
     margin-bottom:0;
     padding-bottom:0;
-    max-width: 950px;
+    max-width: 720px;
 }
 
 .content {
@@ -162,8 +162,7 @@ a:hover{
     background:var(--sectionbg);
     color:var(--text-color);
 
-    width:fit-content;
-    max-width:50%;
+    width: 80%;
 
     padding-left: 2em;
     padding-right: 2em;
@@ -187,7 +186,7 @@ a:hover{
     width:100%;
     color: black;
     background: var(--accent);
-    font-family: 'Times New Roman', serif;
+    font-family: 'Garamond', 'Georgia', 'Times New Roman', serif;
     font-size: .8em;
     padding: 0px;
     clear:both;
