@@ -78,7 +78,15 @@ a:hover{
     padding-top:1%;
     padding-bottom:1%;
 }
-
+.linksheader_sub{
+    display: grid;
+    text-align: justify;
+    margin-top:0%;
+    margin-bottom:0%;
+    padding-top:1%;
+    padding-bottom:1%;
+    font-size:.7em;
+}
 .contentwrap {
     background:var(--sectionbg);
     margin-left:auto;
@@ -148,6 +156,40 @@ a:hover{
 
     right:5; 
     transform: rotate(2deg);
+}
+
+.updateL {
+    background:var(--sectionbg);
+    color:var(--text-color);
+
+    width:fit-content;
+    max-width:80%;
+
+    padding-left: 2em;
+    padding-right: 2em;
+
+    clear:both;
+    float:left;
+
+    left:5;
+}
+
+.updateR {
+    background:var(--sectionbg);
+    color:var(--text-color);
+
+    text-align: right;
+
+    width:fit-content;
+    max-width:80%;
+
+    padding-left: 2em;
+    padding-right: 2em;
+
+    clear:both;
+    float:right;
+
+    right:5;
 }
 
 .timestamp {
