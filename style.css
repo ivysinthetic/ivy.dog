@@ -9,7 +9,7 @@
 html {
     background: var(--pagebg);
     /*background-image: url("/images/bg_checker_cyan.png");*/
-    font-family: Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
 }
 body {
