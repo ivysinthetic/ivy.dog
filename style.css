@@ -1,10 +1,10 @@
 :root {
-    --accent:   #e671f4;
-    --pagebg:   #000000; 
-    --selection:  #ffffff98; 
-    --sectionbg:   #ffffff07; 
+    --accent:   #8fadff;
+    --pagebg:   #ffffff; 
+    --selection:  #0011ff4f; 
+    --sectionbg:   #ffffff1c; 
     --header-color: #000000;
-    --text-color: #ffffff;
+    --text-color: #3a3a3a;
 }
 html {
     background: var(--pagebg);
@@ -15,28 +15,35 @@ html {
 body {
     margin:0px;
 }
-h1{
-    background: var(--accent);
-    color:var(--header-color);
 
-    padding-top:10px;
-    padding-bottom:10px;
-    padding-left: 128px;
-    padding-right: 128px;
+
+.bgwords {
+    user-select: none;
+    position:fixed;
+    max-width: 256px;
+    color: #0000000f;
+    padding: 0;
+    margin: 0;
+    letter-spacing: -.1em;
+    line-height: .45em;
+    font-size:2em;
+    transform: scale(240%, 120%);
+    filter:blur(1px);
+    z-index: -1;
+}
+h1{
+    color:var(--header-color);
 
     font-size: 2.2em;
     line-height: .9em;
+
+    filter: drop-shadow(6px 0px 2px #00000018);
+    text-decoration: underline;
 }
 h2 {
-    background: var(--selection);
     color:var(--header-color);
-
-    padding-top:5px;
-    padding-bottom:5px;
-    padding-left: 32px;
-    padding-right: 32px;
-
-    font-size: 1.8em;
+    font-size: 1.4em;
+    filter: drop-shadow(6px 0px 2px #00000018);
 }
 img{
     max-width: 100%;
@@ -54,9 +61,7 @@ a:visited{
     color: var(--accent);
 }
 a:hover{
-    color: var(--pagebg);
     transform:scale(105%, 105%);
-    background-color: var(--accent);
     filter: drop-shadow(0px 0px 2px var(--accent));
 }
 
@@ -93,69 +98,15 @@ a:hover{
     margin-right:auto;
     margin-bottom:0;
     padding-bottom:0;
-    max-width: 720px;
+    max-width: 512px;
 }
 
 .content {
     color:var(--text-color);
     width:100%;
     margin:auto;
-}
-
-.windowcenter{
-    text-align: center;
-
-    color:var(--text-color);
-
-    width:fit-content;
-
     padding-left: 2em;
     padding-right: 2em;
-    padding-top: 1px;
-    padding-bottom: 1px;
-
-    clear:both;
-    margin:auto;
-}
-
-.left {
-    background:var(--sectionbg);
-    color:var(--text-color);
-
-    transform:scale(90%, 109%);
-
-    width:fit-content;
-    max-width:45%;
-
-    padding-left: 2em;
-    padding-right: 2em;
-
-    clear:both;
-    float:left;
-
-    left:5;
-    transform: rotate(-2deg);
-}
-
-.right {
-    background:var(--sectionbg);
-    color:var(--text-color);
-
-    transform:scale(90%, 109%);
-
-    text-align: right;
-
-    width:fit-content;
-    max-width:45%;
-
-    padding-left: 2em;
-    padding-right: 2em;
-
-    clear:both;
-    float:right;
-
-    right:5; 
-    transform: rotate(2deg);
 }
 
 .update {
@@ -185,7 +136,6 @@ a:hover{
 .footer {
     width:100%;
     color: black;
-    background: var(--accent);
     font-family: 'Garamond', 'Georgia', 'Times New Roman', serif;
     font-size: .8em;
     padding: 0px;
