@@ -49,6 +49,13 @@ img{
     max-width: 100%;
 }
 
+.cw{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+}
+
 .hex{
     font-family:monospace;
     color:rgb(141, 154, 175);
