@@ -1,10 +1,10 @@
 :root {
-    --accent:   #8fadff;
-    --pagebg:   #ffffff; 
-    --selection:  #0011ff4f; 
-    --sectionbg:   #ffffff1c; 
-    --header-color: #000000;
-    --text-color: #3a3a3a;
+    --accent:   #d28fff;
+    --pagebg:   #000000; 
+    --selection:  #d9bbff77; 
+    --sectionbg:   #00000000; 
+    --header-color: #f5ebff;
+    --text-color: #dfdfdf;
 }
 html {
     background: var(--pagebg);
@@ -21,7 +21,7 @@ body {
     user-select: none;
     position:fixed;
     max-width: 256px;
-    color: #0000000f;
+    color: #9628710f;
     padding: 0;
     margin: 0;
     letter-spacing: -.1em;
@@ -130,6 +130,11 @@ a.hover:hover{
     margin-bottom:0;
     padding-bottom:0;
     max-width: 512px;
+    
+    border-style: solid;
+    border:aliceblue;
+    border-width: 1px;
+    border-color:aliceblue
 }
 
 .content {
@@ -181,7 +186,7 @@ a.hover:hover{
 }
 .footer {
     width:100%;
-    color: black;
+    color: rgb(177, 177, 177);
     font-family: 'Garamond', 'Georgia', 'Times New Roman', serif;
     font-size: .8em;
     padding: 0px;
