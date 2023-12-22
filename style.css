@@ -40,6 +40,20 @@ h1{
     filter: drop-shadow(6px 0px 2px #00000018);
     text-decoration: underline;
 }
+.h1p{
+    color:black;
+
+    font-size: 2.2em;
+    line-height: .9em;
+
+    filter: drop-shadow(6px 0px 2px #00000018);
+    text-decoration: underline;
+}
+.h2p{
+    color:black;
+    font-size: 1.4em;
+    filter: drop-shadow(6px 0px 2px #00000018);
+}
 h2 {
     color:var(--header-color);
     font-size: 1.4em;
@@ -50,8 +64,8 @@ img{
 }
 
 .cw{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 4px;
     border-radius: 4px;
 }
@@ -146,20 +160,25 @@ a.hover:hover{
 }
 
 .poem{
+    background: rgb(203, 211, 211);
+    background-image: url("/images/crop-bg.jpg");
+    background-size: cover;
     font-family: monospace;
     font-size: .9em;
-    background:var(--sectionbg);
-    color:var(--text-color);
+    color:black;
     width:80%;
     max-width: 300px;
     margin:auto;
     padding-left: 3em;
     padding-right: 0em;
+    padding-top: 3em;
+    padding-bottom: 1em;
     text-align: justify;
     line-height: .5em;
-    border-left: 4px double var(--selection);
+    border-left: 4px double black;
 
-    border-right: 4px double var(--selection);
+    border-right: 4px double black;
+    border-bottom: 4px double black;
 }
 
 .contentwrap {
