@@ -130,6 +130,38 @@ a.hover:hover{
     padding-bottom:1%;
     font-size:.7em;
 }
+
+.poemwrap {
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0;
+    padding-bottom:0;
+    padding: auto;
+    max-width: 332;
+    
+    border-style: solid;
+    border:aliceblue;
+    border-width: 1px;
+    border-color:aliceblue
+}
+
+.poem{
+    font-family: monospace;
+    font-size: .9em;
+    background:var(--sectionbg);
+    color:var(--text-color);
+    width:80%;
+    max-width: 300px;
+    margin:auto;
+    padding-left: 3em;
+    padding-right: 0em;
+    text-align: justify;
+    line-height: .5em;
+    border-left: 4px double var(--selection);
+
+    border-right: 4px double var(--selection);
+}
+
 .contentwrap {
     margin-left:auto;
     margin-right:auto;
