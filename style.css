@@ -1,7 +1,8 @@
 :root {
     --accent:   #d28fff;
     --pagebg:   #000000; 
-    --selection:  #d9bbff77; 
+    --accent2:  #d9bbff77; 
+    --selection: #ffffff77;
     --sectionbg:   #000000af; 
     --header-color: #f5ebff;
     --text-color: #dfdfdf;
@@ -82,7 +83,7 @@ a{
     color:var(--accent);
 }
 a.visited{
-    color:var(--selection);
+    color:var(--accent2);
 }
 
 a.hexl {
@@ -203,8 +204,8 @@ a.hover:hover{
     margin:auto;
     padding-left: 2em;
     padding-right: 2em;
-    border-left: 4px double var(--selection);
-    border-bottom: 4px double var(--selection);
+    border-left: 4px double var(--accent2);
+    border-bottom: 4px double var(--accent2);
 }
 
 .update {
@@ -219,7 +220,7 @@ a.hover:hover{
 
 .timestamp {
     font-size: .8em;
-    color: var(--selection);
+    color: var(--accent2);
     padding-top: 8px;
     padding-bottom: 8px;
 }
