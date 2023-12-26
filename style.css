@@ -229,16 +229,11 @@ a.hover:hover{
     font-weight: bolder;
     color: red;
     filter: drop-shadow(0px 0px 4px orange);
-    font-size: 1.1em;
-    font-family: sans-serif;
+    font-size: 1.3em;
+    font-family: serif;
 }
 
-.gglow{
-    font-weight: lighter;
-    color: green;
-    filter: drop-shadow(0px 0px 4px greenyellow);
-    font-family: fantasy;
-}
+
 
 .stampfoot{
     padding:2px;
