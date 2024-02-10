@@ -1,11 +1,19 @@
 :root {
-    --accent:   #d28fff;
-    --pagebg:   #201c20; 
-    --accent2:  #d9bbff77; 
-    --selection: #ffffff77;
-    --sectionbg:   #ffffff18; 
-    --header-color: #f5ebff;
+    --pagebg:   #1c1c20;
     --text-color: #dfdfdf;
+
+    --accent-color-main:   #918fff;
+    --accent-color-secondary:  #bcbbff77; 
+    --boxbg:   #ffffff18;
+
+    --accent-color-main-special:   #c98fff;
+    --accent-color-secondary-special:  #ecbbff77; 
+    --boxbg-special:   #ffd0f918;
+    --text-color-special: #f5e9ff;
+
+    --selection: #ffffff77;
+    --header-color: #f5ebff;
+    --bgwords-color:#24242b46;
 
     font-smooth: never;
 }
@@ -35,30 +43,67 @@ body {
     margin:8px;
 }
 p {
-    margin: 2px 0;
+    margin: 2px;
+    margin-left:0;
+    margin-right:0;
+    padding: 1px;
+    padding-bottom: 4px;
 }
 
-.bgwords {
-    user-select: none;
-    position:fixed;
-    max-width: 256px;
-    color: #9628710f;
-    padding: 0;
-    margin: 0;
-    letter-spacing: -.1em;
-    line-height: .45em;
-    font-size:2em;
-    transform: scale(240%, 120%);
-    filter:blur(1px);
-    z-index: -1;
+.wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0;
+
+    padding: auto;
+
+    max-width: 768px;
+    
+    border-style: solid;
+    border:aliceblue;
+    border-width: 1px;
+    border-color:aliceblue
 }
+
+.box {
+    background:var(--boxbg);
+    color:var(--text-color);
+    width:80%;
+    max-width: 768px;
+    margin:auto;
+    margin-bottom: 2px;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 8px;
+    border: 4px double var(--accent-color-secondary);
+}
+
+.box-special {
+    background:var(--boxbg-special);
+    color:var(--text-color-special);
+    width:80%;
+    max-width: 768px;
+    margin:auto;
+    margin-bottom: 2px;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 8px;
+    border: 4px solid var(--accent-color-secondary-special);
+}
+
 h1{
     color:var(--header-color);
 
-    font-size: 18px;
+    font-size: 1.2em;
     line-height: .9em;
-
-    text-decoration: underline;
+    margin:12px;
+}
+h2 {
+    color:var(--header-color);
+    font-size: 1.2em;
+    margin:8px;
+    margin-left:0;
+    margin-right:0;
 }
 .h1p{
     color:black;
@@ -70,10 +115,6 @@ h1{
 }
 .h2p{
     color:black;
-    font-size: 1em;
-}
-h2 {
-    color:var(--header-color);
     font-size: 1em;
 }
 img{
@@ -96,18 +137,18 @@ img{
 }
 
 a{
-    color:var(--accent);
+    color:var(--accent-color-main);
 }
 a.visited{
-    color:var(--accent2);
+    color:var(--accent-color-secondary);
 }
 
 a.hexl {
-    color:var(--accent);
+    color:var(--accent-color-main);
 }
 
 a.hexl:link{
-    color: var(--accent);
+    color: var(--accent-color-main);
     text-decoration: none;
 }
 a.hexl:visited{
@@ -117,21 +158,21 @@ a.hexl:visited{
 
 a.hover:link {
     transition: all .2s cubic-bezier(0,-0.78,.25,1.4);
-    color: var(--accent);
+    color: var(--accent-color-main);
     text-decoration: none;
     font-size: 1em;
 }
 a.hover:visited{
-    color: var(--accent);
+    color: var(--accent-color-main);
 }
 a.hover:hover{
-    color: var(--accent2);
+    color: var(--accent-color-secondary);
 }
 
 .titlebar {
     margin:auto;
     color:var(--header-color);
-    background: var(--accent);
+    background: var(--accent-color-main);
     font-size: 5.3em;
     line-height: .8em;
     padding-top:1%;
@@ -148,7 +189,6 @@ a.hover:hover{
 }
 .linksfooter{
     display: grid;
-    text-align: justify;
     margin-top:0%;
     margin-bottom:0%;
     padding-top:1%;
@@ -192,34 +232,10 @@ a.hover:hover{
     border-bottom: 4px double black;
 }
 
-.contentwrap {
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom:0;
-    padding-bottom:0;
-    padding: auto;
-    max-width: 768px;
-    
-    border-style: solid;
-    border:aliceblue;
-    border-width: 1px;
-    border-color:aliceblue
-}
 
-.content {
-    background:var(--sectionbg);
-    color:var(--text-color);
-    width:80%;
-    max-width: 768px;
-    margin:auto;
-    margin-bottom: 2px;
-    padding-left: 2em;
-    padding-right: 2em;
-    border: 4px double var(--accent2);
-}
 
 .update {
-    background:var(--sectionbg);
+    background:var(--boxbg);
     color:var(--text-color);
 
     width: 80%;
@@ -230,7 +246,7 @@ a.hover:hover{
 
 .timestamp {
     font-size: .8em;
-    color: var(--accent2);
+    color: var(--accent-color-secondary);
     padding-top: 8px;
     padding-bottom: 8px;
 }
@@ -243,8 +259,6 @@ a.hover:hover{
     font-family: serif;
 }
 
-
-
 .stampfoot{
     padding:2px;
     text-align: justify;
@@ -252,6 +266,7 @@ a.hover:hover{
 .stampfoot img{
     max-width: 100%;
 }
+
 .footer {
     width:100%;
     color: rgb(177, 177, 177);
@@ -271,18 +286,19 @@ a.hover:hover{
     padding: 2px;
 }
 
-.avatar {
-    transition: all .2s cubic-bezier(0,-0.78,.25,1.4);
-    transform: rotate(0deg) scale(100%);
-    position: absolute;
-    float: right;
-    right:0;
-    padding: 12px;
-}
-
-.avatar:hover {
-    transform: rotate(1deg) scale(102%);
-    filter: drop-shadow(2px 2px 2px var(--accent));
+.bgwords {
+    user-select: none;
+    position:fixed;
+    max-width: 256px;
+    color: var(--bgwords-color);
+    padding: 0;
+    margin: 0;
+    letter-spacing: -.1em;
+    line-height: .45em;
+    font-size:2em;
+    transform: scale(240%, 120%);
+    filter:blur(1px);
+    z-index: -1;
 }
 
 ::selection {
