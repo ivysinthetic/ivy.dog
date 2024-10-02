@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ivydog/public_html
-    - /repositories/ivy.dog/public -R . $DEPLOYPATH
+    - /bin/cp -r public/. $DEPLOYPATH
