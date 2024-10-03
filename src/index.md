@@ -21,3 +21,9 @@ i released an album this year! it's available on all streaming services
 [cia psyop testing grounds](https://x.com/ivysinthetic) // 
 [youtube vlogs](https://youtube.com/@ibbyvids) // 
 [youtube mvs](https://youtube.com/@ivysinthetic)
+
+## misc
+
+[rss](rss.xml)
+
+email: bark at ivy dot dog
