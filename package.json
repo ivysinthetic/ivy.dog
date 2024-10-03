@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-rss": "^2.0.2",
     "corepack": "^0.29.3",
     "npm": "^10.8.2",
     "sass": "^1.79.4"
@@ -12,7 +13,6 @@
   "scripts": {
     "watch:sass": "sass --watch src/sass:public/css",
     "build:sass": "sass src/sass:public/css",
-
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",

@@ -3,7 +3,9 @@ title: "ivy's webzone"
 layout: "base.njk"
 ---
 
-hi! i'm an internet musician and hobbyist gamedev, among other things!
+## hi! 
+
+i'm an internet musician and hobbyist gamedev, among other things!
 
 ## my music
 
