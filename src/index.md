@@ -7,7 +7,7 @@ layout: "base.njk"
 
 i'm an internet musician and hobbyist gamedev, among other things!
 
-## my music
+### music:
 
 i released an album this year! it's available on all streaming services
 
@@ -15,14 +15,14 @@ i released an album this year! it's available on all streaming services
 [spotify](https://open.spotify.com/artist/7DlrwzbeWDrCAjy8R7pwGo) //
 [soundcloud](https://soundcloud.com/ivysinthetic/)
 
-## the social panopticon
+### social panopticon
 
 [cambridge analytica data farm](https://instagram.com/ivysinthetic) //
 [cia psyop testing grounds](https://x.com/ivysinthetic) // 
 [youtube vlogs](https://youtube.com/@ibbyvids) // 
 [youtube mvs](https://youtube.com/@ivysinthetic)
 
-## misc
+### misc
 
 [rss](rss.xml)
 

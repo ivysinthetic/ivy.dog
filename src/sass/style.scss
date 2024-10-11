@@ -5,15 +5,13 @@ html {
 body {
     margin-top:0px;
     padding-top:0px;
-    background: #ffffff;
-    background-image: url(/images/tiling_bg.png);
-    color: rgb(3, 133, 255);
+    background:rgb(222, 236, 255);
     justify-content: center;
     font-size: 16px;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 8em;
     font-family: sans-serif;
     font-variant-caps: all-small-caps;
     padding: 0;
@@ -40,8 +38,9 @@ p {
 }
 
 .wrapper {
-    background:white;
-    padding-top: 8px;
+    background:rgb(233, 242, 255);
+    color: rgb(3, 133, 255);
+    padding-top: 6px;
     padding-left: 32px;
     padding-right: 32px;
     padding-bottom: 8px;
@@ -55,27 +54,36 @@ p {
     background: rgb(3, 133, 255);
     background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(3,133,255,1) 10%, rgba(19,90,255,1) 50%, rgba(3,133,255,1) 90%, rgba(255,255,255,0) 100%);
     color:white;
-    font-size: 1.5em;
-    font-family: sans-serif;
-    margin: auto;
-    padding-top: 12px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+    font-family: Helvetica, sans-serif;
     width: 100%;
     max-width: 1024px;
-    
+    max-height: 128px;
+    margin: auto;
+}
+
+.headertext {
+    width: 100%;
+    height: 100%;
+    font-size: 4em;
+    font-variant-caps: all-small-caps;
     text-align: center;
+    
 }
 
 .headerlinks {
     margin: auto;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding: 6px;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
-.header a{
-    color: white;
+.headerlinks a{
+    color: rgb(255, 64, 64);
+    padding: 3px;
 }
 
 .footer {

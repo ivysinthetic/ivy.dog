@@ -3,4 +3,8 @@ title: "the blog"
 layout: "base.njk"
 ---
 
-- [website overhaul \(10.2.2024\)](/blogs/blog-1)
+## october '24
+
+- 10.11.2024 - ["sns rant"](/blogs/blog-10-11-24)
+
+- 10.02.2024 - ["website overhaul"](/blogs/blog-10-2-24)
