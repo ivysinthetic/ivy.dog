@@ -3,8 +3,8 @@ title: "the blog"
 layout: "base.njk"
 ---
 
-## october '24
+## 2024
 
-- 10.11.2024 - ["sns rant"](/blogs/blog-10-11-24)
+- 11.06.2024 - ["sns soapbox"](/blogs/blog-11-06-24)
 
 - 10.02.2024 - ["website overhaul"](/blogs/blog-10-2-24)

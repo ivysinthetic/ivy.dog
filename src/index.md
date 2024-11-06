@@ -17,6 +17,7 @@ i released an album this year! it's available on all streaming services
 
 ### social panopticon
 
+[certainly it will turn out good this time, right?](https://bsky.app/profile/ivy.dog) //
 [cambridge analytica data farm](https://instagram.com/ivysinthetic) //
 [cia psyop testing grounds](https://x.com/ivysinthetic) // 
 [youtube vlogs](https://youtube.com/@ibbyvids) // 
