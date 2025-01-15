@@ -3,17 +3,16 @@ html {
 }
 
 body {
-  margin-top: 0px;
+  margin: 0px;
   padding-top: 0px;
-  background: rgb(222, 236, 255);
+  background: rgb(10, 11, 12);
+  font-family: 'Courier New', Courier, monospace;
   justify-content: center;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 h1 {
   font-size: 8em;
-  font-family: sans-serif;
-  font-variant-caps: all-small-caps;
   padding: 0;
   margin: 0;
 }
@@ -29,7 +28,7 @@ ul {
 }
 
 a {
-  color: rgb(255, 64, 64);
+  color: rgb(187, 255, 0);
   text-decoration: none;
 }
 
@@ -38,8 +37,7 @@ p {
 }
 
 .wrapper {
-  background: rgb(233, 242, 255);
-  color: rgb(3, 133, 255);
+  color: rgb(255, 255, 255);
   padding-top: 6px;
   padding-left: 32px;
   padding-right: 32px;
@@ -51,12 +49,9 @@ p {
 }
 
 .header {
-  background: rgb(3, 133, 255);
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(3, 133, 255) 10%, rgb(19, 90, 255) 50%, rgb(3, 133, 255) 90%, rgba(255, 255, 255, 0) 100%);
-  color: white;
-  font-family: Helvetica, sans-serif;
+  background: rgb(187, 255, 0);
+  color: rgb(0, 0, 0);
   width: 100%;
-  max-width: 1024px;
   max-height: 128px;
   margin: auto;
 }
@@ -73,7 +68,6 @@ p {
   margin: auto;
   padding: 6px;
   font-size: 1.2em;
-  font-family: sans-serif;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -81,12 +75,11 @@ p {
 }
 
 .headerlinks a {
-  color: rgb(255, 64, 64);
   padding: 3px;
 }
 
 .footer {
-  color: rgba(3, 133, 255, 0.651);
+  color: rgba(187, 255, 0, 0.24);
   width: 100%;
   text-align: center;
   padding-top: 12px;
@@ -94,8 +87,6 @@ p {
 }
 
 ::selection {
-  background: rgb(240, 167, 167);
-  color: rgb(138, 16, 63);
+  background: rgb(255, 0, 255);
+  color: rgb(0, 0, 0);
 }
-
-/*# sourceMappingURL=style.css.map */
