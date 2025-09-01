@@ -1,42 +1,82 @@
+:root{
+  --black: #09010d;
+  --purple_dark: #17001d;
+  --purple: #270022;
+  --purple_light: #450327;
+  --red_dark: #660f31;
+  --red: #9c173b;
+  --red_neon: #ff0546;
+  --blue_dark: #1e579c;
+  --blue_mid: #0098db;
+  --blue_bright: #0ce6f2;
+}
+
 html {
   height: 100%;
+}
+
+@font-face {
+  font-family: 'kingdom';
+  src: url('../fonts/kingdom.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'pixelm';
+  src: url('../fonts/pixelm.ttf') format('truetype');
 }
 
 body {
   margin: 0px;
   padding-top: 0px;
-  background: rgb(35, 33, 44);
-  font-family: 'Courier New', Courier, monospace;
+  background: var(--black);
   justify-content: center;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 h1 {
   font-size: 24px;
   padding: 0;
   margin: 0;
+
+  font-family: 'kingdom';
 }
 
 h2 {
   margin-top: 2px;
   margin-bottom: 4px;
+  color: var(--red_dark);
+
+  font-family: 'kingdom';
 }
 
 ul {
   margin-top: 2px;
   margin-bottom: 2px;
+  font-family: 'pixelm';
 }
 
 a {
-  color: rgb(185, 176, 214);
+  color: var(--red);
+  text-decoration:none;
+
+  font-family: 'kingdom';
+}
+
+a:hover {
+  background-color: var(--blue_bright);
+  color: var(--black);
+
+  font-family: 'kingdom';
 }
 
 p {
   margin: 8px;
+
+  font-family: 'pixelm';
 }
 
 .wrapper {
-  color: rgb(195, 190, 211);
+  color: var(--purple_light);
   padding-top: 6px;
   padding-left: 32px;
   padding-right: 32px;
@@ -44,30 +84,31 @@ p {
   margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 700px;
+  max-width: 768px;
 }
 
 .header {
-  background: rgb(195, 190, 211);;
-  color: rgb(0, 0, 0);
+  color: var(--red_neon);
   width: 100%;
-  max-height: 128px;
+  max-height: 384px;
   margin: 0;
 }
 
 .headertext {
   width: 100%;
   height: 100%;
-  font-size: 32px;
+  font-size: 128px;
   text-align: center;
   margin:0;
   padding:0;
+
+  font-family: 'kingdom';
 }
 
 .headerlinks {
   margin: auto;
   padding: 6px;
-  font-size: 1.2em;
+  font-size: 32px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -79,14 +120,16 @@ p {
 }
 
 .footer {
-  color: rgba(195, 190, 211, 0.24);
+  color: var(--purple_dark);
   width: 100%;
   text-align: center;
   padding-top: 12px;
   padding-bottom: 8px;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 ::selection {
-  background: rgb(195, 190, 211);
-  color: rgb(0, 0, 0);
+  background: var(--blue_bright);
+  color: var(--black);
 }
