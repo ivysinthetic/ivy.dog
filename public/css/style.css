@@ -43,7 +43,7 @@ a:hover {
   border-radius: 0px 0px 16px 16px;
 }
 
-.header {
+header {
   color: var(--red_neon);
   width: 100%;
   max-height: 384px;
@@ -75,7 +75,7 @@ a:hover {
   font-family: 'kingdom';
 }
 
-.footer {
+footer {
   color: rgba(255, 255, 255, 0.33);
   width: 100%;
   text-align: center;
